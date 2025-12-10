@@ -1,0 +1,46 @@
+{
+  "workData": [
+    {
+      "image": "/images/work/work-img-1.jpg",
+      "title": "Barbershop POS System",
+      "client": "Capstone Project - Metrodata Academy",
+      "slug": "barbershop-pos-system",
+      "description": "Co-developed a Barbershop POS System in a 2-person team using Java, Spring Boot, Thymeleaf, Bootstrap and MySQL. Implemented Git workflow with separate branches for Frontend and Backend integration."
+    },
+    {
+      "image": "/images/work/work-img-2.jpg",
+      "title": "Minibox Barbershop Management",
+      "client": "Freelance Project",
+      "slug": "minibox-barbershop",
+      "description": "Developed a custom offline management system using Laravel & MySQL to digitize daily transactions. Designed responsive UI using Bootstrap and successfully deployed to replace manual recording."
+    },
+    {
+      "image": "/images/work/work-img-3.jpg",
+      "title": "Core Initiative Frontend",
+      "client": "Rakamin Academy - Virtual Internship",
+      "slug": "core-initiative-frontend",
+      "description": "Developed responsive web interfaces using Vue.js according to UI/UX designs. Implemented modern frontend best practices in a fintech-focused environment."
+    },
+    {
+      "image": "/images/work/work-img-4.jpg",
+      "title": "Web Design Interface Course",
+      "client": "UMBY Laboratory",
+      "slug": "web-design-interface",
+      "description": "Mentored 50+ students in Web Design Interface course. Assisted lecturer in evaluating assignments and debugging student code (HTML, CSS, SQL)."
+    },
+    {
+      "image": "/images/work/work-img-5.jpg",
+      "title": "Database Design & Programming",
+      "client": "UMBY Laboratory",
+      "slug": "database-programming",
+      "description": "Taught Database Design & Programming With SQL course using Oracle Database. Helped troubleshoot technical issues during lab sessions."
+    },
+    {
+      "image": "/images/work/work-img-6.jpg",
+      "title": "PKKMB FTI UMBY 2024",
+      "client": "PDD Chairman - Faculty Events",
+      "slug": "pkkmb-fti-2024",
+      "description": "Led the Media and Information team for Faculty of Information Technology's orientation program. Responsible for documentation, live broadcasting, and visual identity of the event."
+    }
+  ]
+}

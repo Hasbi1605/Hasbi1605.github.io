@@ -1,0 +1,127 @@
+{
+  "contactBar": {
+    "contactItems": [
+      {
+        "type": "email",
+        "label": "terry.delvon0805@gmail.com",
+        "icon": "/images/icon/mail-icon.svg",
+        "link": "mailto:terry.delvon0805@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+62 838-2603-9171",
+        "icon": "/images/icon/call-icon.svg",
+        "link": "tel:+6283826039171"
+      },
+      {
+        "type": "website",
+        "label": "hasbi1605.github.io",
+        "icon": "/images/icon/web-icon.svg",
+        "link": "https://hasbi1605.github.io/"
+      }
+    ],
+    "socialItems": [
+      {
+        "platform": "github",
+        "icon": "/images/icon/github-icon.svg",
+        "link": "https://github.com/Hasbi1605"
+      },
+      {
+        "platform": "linkedin",
+        "icon": "/images/icon/linkedin-icon.svg",
+        "link": "https://www.linkedin.com/in/mhasbia16"
+      }
+    ]
+  },
+  "educationData": {
+    "education": [
+      {
+        "title": "Mercubuana Yogyakarta University - 2023",
+        "description": "Bachelor of Information Systems | Current GPA: 3.81 / 4.00. Relevant Courses: Database Design & Programming (Oracle), Web Programming (PHP/Laravel), Network Administration, Information System Audit, UI/UX Design (Figma), Data Structures & Algorithms."
+      },
+      {
+        "title": "Java Fullstack Bootcamp - 2025",
+        "description": "Metrodata Academy x BPSDMP Komdigiy • Intensive Bootcamp. Completed training on Enterprise Web Development using Java, Spring Boot, Thymeleaf, Bootstrap and MySQL. Co-developed a Barbershop POS System. Won 3rd Place for Best Pitching."
+      },
+      {
+        "title": "Junior Network Administrator - 2025",
+        "description": "Digital Talent Scholarship (Komdigi) & BNSP RI. Certified Competent by BNSP in Network Infrastructure. Mastered Network Addressing, Wireless Setup, Switching, and Routing configurations."
+      },
+      {
+        "title": "Generative AI for Software Development - 2025",
+        "description": "Hacktiv8 x IBM SkillsBuild. Completed specialized training on Code Generation and Optimization using IBM Granite models. Certified in IBM Granite Models (MDL-567) & Code Optimization (MDL-566)."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Java",
+        "icon": "/images/home/education-skill/java-icon.svg",
+        "rating": 4
+      },
+      {
+        "name": "Spring Boot",
+        "icon": "/images/home/education-skill/spring-icon.svg",
+        "rating": 4
+      },
+      {
+        "name": "PHP",
+        "icon": "/images/home/education-skill/php-icon.svg",
+        "rating": 4
+      },
+      {
+        "name": "Laravel",
+        "icon": "/images/home/education-skill/laravel-icon.svg",
+        "rating": 4
+      },
+      {
+        "name": "Vue.js",
+        "icon": "/images/home/education-skill/vue-icon.svg",
+        "rating": 3
+      },
+      {
+        "name": "MySQL",
+        "icon": "/images/home/education-skill/mysql-icon.svg",
+        "rating": 4
+      },
+      {
+        "name": "Oracle SQL",
+        "icon": "/images/home/education-skill/oracle-icon.svg",
+        "rating": 4
+      },
+      {
+        "name": "Git",
+        "icon": "/images/home/education-skill/git-icon.svg",
+        "rating": 4
+      },
+      {
+        "name": "JavaScript",
+        "icon": "/images/home/education-skill/js-icon.svg",
+        "rating": 4
+      }
+    ]
+  },
+  "contactLinks": {
+    "socialLinks": [
+      {
+        "title": "LinkedIn",
+        "href": "https://www.linkedin.com/in/mhasbia16"
+      },
+      {
+        "title": "GitHub",
+        "href": "https://github.com/Hasbi1605"
+      }
+    ],
+    "contactInfo": [
+      {
+        "type": "email",
+        "label": "terry.delvon0805@gmail.com",
+        "link": "mailto:terry.delvon0805@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+62 838-2603-9171",
+        "link": "tel:+6283826039171"
+      }
+    ]
+  }
+}
