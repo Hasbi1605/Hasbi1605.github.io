@@ -1,0 +1,52 @@
+{
+  "galleryData": [
+    {
+      "id": 1,
+      "image": "/images/gallery/gallery-1.jpg",
+      "title": "MC PKKMB FTI 2024",
+      "description": "Menjadi Master of Ceremony pada acara Pengenalan Kehidupan Kampus Mahasiswa Baru Fakultas Teknologi Informasi",
+      "category": "Event",
+      "date": "2024"
+    },
+    {
+      "id": 2,
+      "image": "/images/gallery/gallery-2.jpg",
+      "title": "Workshop Web Development",
+      "description": "Mengikuti workshop pengembangan web modern dengan Next.js dan React",
+      "category": "Workshop",
+      "date": "2024"
+    },
+    {
+      "id": 3,
+      "image": "/images/gallery/gallery-3.jpg",
+      "title": "Tim HMPSSI UMBY",
+      "description": "Bersama tim Media dan Informasi HMPSSI dalam kegiatan organisasi",
+      "category": "Organization",
+      "date": "2024"
+    },
+    {
+      "id": 4,
+      "image": "/images/gallery/gallery-4.jpg",
+      "title": "Sertifikasi BNSP",
+      "description": "Mengikuti uji kompetensi Junior Network Administrator dari BNSP",
+      "category": "Certification",
+      "date": "2024"
+    },
+    {
+      "id": 5,
+      "image": "/images/gallery/gallery-5.jpg",
+      "title": "Java Bootcamp Graduation",
+      "description": "Wisuda program Java Fullstack Bootcamp di Metrodata Academy",
+      "category": "Education",
+      "date": "2024"
+    },
+    {
+      "id": 6,
+      "image": "/images/gallery/gallery-6.jpg",
+      "title": "Seminar Teknologi",
+      "description": "Menjadi peserta seminar teknologi dan karir di bidang IT",
+      "category": "Seminar",
+      "date": "2024"
+    }
+  ]
+}
