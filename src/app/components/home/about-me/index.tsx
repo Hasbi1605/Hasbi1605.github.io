@@ -44,11 +44,11 @@ const AboutMe = () => {
                 <div className="pt-8 xl:pt-14 flex flex-col sm:flex-row items-center gap-4">
                   <div className="flex items-center gap-3.5">
                     <Image src={getImgPath("/images/icon/lang-icon.svg")} alt="lang-icon" width={30} height={30} />
-                    <p className="text-base xl:text-xl text-black">Language</p>
+                    <p className="text-base text-black">Language</p>
                   </div>
                   <div className="flex flex-wrap justify-center items-center gap-2.5">
-                    {["Indonesian (Native)", "English (Professional)"].map((lang) => (
-                      <p key={lang} className="bg-white py-2 md:py-3.5 px-4 md:px-5 w-fit rounded-full text-base xl:text-xl">
+                    {["Indonesian (Native)", "English (Working Proficiency)"].map((lang) => (
+                      <p key={lang} className="bg-white py-2 px-4 w-fit rounded-full text-base">
                         {lang}
                       </p>
                     ))}
