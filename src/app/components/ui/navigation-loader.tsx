@@ -27,10 +27,6 @@ const NavigationLoader = () => {
 
   // Listen for navigation start
   useEffect(() => {
-    const handleStart = () => {
-      setIsNavigating(true);
-    };
-
     // Listen for link clicks to detect navigation
     const handleLinkClick = (e: MouseEvent) => {
       const target = e.target as HTMLElement;
