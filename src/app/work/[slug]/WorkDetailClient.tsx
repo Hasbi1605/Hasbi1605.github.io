@@ -66,7 +66,24 @@ const WorkDetailClient = ({ slug }: WorkDetailClientProps) => {
       <main className="pt-35 md:pt-40 pb-16">
         <div className="container">
           <div className="flex items-center justify-center min-h-[50vh]">
-            <div className="animate-pulse text-xl text-secondary">Loading...</div>
+            <div className="flex flex-col items-center gap-6">
+              {/* Spinning Loader */}
+              <div className="loading-spinner">
+                <div className="spinner-ring"></div>
+                <div className="spinner-ring"></div>
+                <div className="spinner-ring"></div>
+              </div>
+
+              {/* Loading Text */}
+              <div className="flex items-center gap-1">
+                <span className="text-lg font-medium text-primary loading-text">Loading project</span>
+                <span className="loading-dots">
+                  <span className="dot">.</span>
+                  <span className="dot">.</span>
+                  <span className="dot">.</span>
+                </span>
+              </div>
+            </div>
           </div>
         </div>
       </main>

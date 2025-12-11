@@ -3,6 +3,8 @@ import { Bricolage_Grotesque } from "next/font/google";
 import "./globals.css";
 import Header from "./components/layout/header";
 import Footer from "./components/layout/footer";
+import { Suspense } from "react";
+import NavigationLoader from "./components/ui/navigation-loader";
 
 const bricolageGrotesque = Bricolage_Grotesque({
   variable: "--font-geist-sans",
@@ -25,6 +27,9 @@ export default function RootLayout({
         <link rel="icon" href="/icon.svg" type="image/svg+xml" />
       </head>
       <body className={bricolageGrotesque.className}>
+        <Suspense fallback={null}>
+          <NavigationLoader />
+        </Suspense>
         <Header />
         {children}
         <Footer />
