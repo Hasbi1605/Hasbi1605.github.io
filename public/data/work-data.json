@@ -5,42 +5,131 @@
       "title": "Barbershop POS System",
       "client": "Capstone Project - Metrodata Academy",
       "slug": "barbershop-pos-system",
-      "description": "Co-developed a Barbershop POS System in a 2-person team using Java, Spring Boot, Thymeleaf, Bootstrap and MySQL. Implemented Git workflow with separate branches for Frontend and Backend integration."
+      "description": "Co-developed a Barbershop POS System in a 2-person team using Java, Spring Boot, Thymeleaf, Bootstrap and MySQL. Implemented Git workflow with separate branches for Frontend and Backend integration.",
+      "longDescription": "A comprehensive Point of Sale (POS) system designed specifically for barbershop businesses. This capstone project was developed in collaboration with a teammate, implementing a full-stack solution that handles customer management, service booking, transaction processing, and reporting. The system features a clean, intuitive interface that allows barbershop staff to efficiently manage daily operations.",
+      "techStack": ["Java", "Spring Boot", "Thymeleaf", "Bootstrap", "MySQL", "Git"],
+      "features": [
+        "Customer management and booking system",
+        "Service catalog with pricing",
+        "Transaction processing and payment tracking",
+        "Daily/monthly revenue reports",
+        "Employee performance tracking",
+        "Git workflow with separate Frontend/Backend branches"
+      ],
+      "youtubeUrl": "",
+      "githubUrl": "",
+      "liveUrl": "",
+      "screenshots": ["/images/work/work-img-1.jpg"],
+      "year": "2024",
+      "role": "Fullstack Developer"
     },
     {
       "image": "/images/work/work-img-2.jpg",
       "title": "Minibox Barbershop Management",
       "client": "Freelance Project",
       "slug": "minibox-barbershop",
-      "description": "Developed a custom offline management system using Laravel & MySQL to digitize daily transactions. Designed responsive UI using Bootstrap and successfully deployed to replace manual recording."
+      "description": "Developed a custom offline management system using Laravel & MySQL to digitize daily transactions. Designed responsive UI using Bootstrap and successfully deployed to replace manual recording.",
+      "longDescription": "A custom-built offline management system developed for a local barbershop to digitize their daily operations. This freelance project replaced their manual paper-based recording system with a digital solution that tracks transactions, manages inventory, and generates business reports. The system is designed to work offline, making it reliable even without internet connectivity.",
+      "techStack": ["Laravel", "PHP", "MySQL", "Bootstrap", "JavaScript"],
+      "features": [
+        "Offline-first architecture for reliability",
+        "Daily transaction recording and tracking",
+        "Revenue and expense management",
+        "Business analytics and reporting",
+        "Responsive design for various devices",
+        "Data backup and export functionality"
+      ],
+      "youtubeUrl": "",
+      "githubUrl": "",
+      "liveUrl": "",
+      "screenshots": ["/images/work/work-img-2.jpg"],
+      "year": "2024",
+      "role": "Fullstack Developer"
     },
     {
       "image": "/images/work/work-img-3.jpg",
       "title": "Core Initiative Frontend",
       "client": "Rakamin Academy - Virtual Internship",
       "slug": "core-initiative-frontend",
-      "description": "Developed responsive web interfaces using Vue.js according to UI/UX designs. Implemented modern frontend best practices in a fintech-focused environment."
+      "description": "Developed responsive web interfaces using Vue.js according to UI/UX designs. Implemented modern frontend best practices in a fintech-focused environment.",
+      "longDescription": "During a virtual internship at Rakamin Academy, I worked on frontend development for Core Initiative, a fintech-focused project. The role involved translating UI/UX designs into functional, responsive web interfaces using Vue.js. This experience provided hands-on exposure to professional frontend development workflows and modern best practices in a fintech environment.",
+      "techStack": ["Vue.js", "JavaScript", "CSS", "HTML", "Figma"],
+      "features": ["Responsive web interface development", "UI/UX design implementation", "Component-based architecture", "Modern frontend best practices", "Cross-browser compatibility", "Performance optimization"],
+      "youtubeUrl": "",
+      "githubUrl": "",
+      "liveUrl": "",
+      "screenshots": ["/images/work/work-img-3.jpg"],
+      "year": "2024",
+      "role": "Frontend Developer"
     },
     {
       "image": "/images/work/work-img-4.jpg",
       "title": "Web Design Interface Course",
       "client": "UMBY Laboratory",
       "slug": "web-design-interface",
-      "description": "Mentored 50+ students in Web Design Interface course. Assisted lecturer in evaluating assignments and debugging student code (HTML, CSS, SQL)."
+      "description": "Mentored 50+ students in Web Design Interface course. Assisted lecturer in evaluating assignments and debugging student code (HTML, CSS, SQL).",
+      "longDescription": "As a laboratory assistant at Mercubuana Yogyakarta University, I mentored over 50 students in the Web Design Interface course. This role involved guiding students through HTML, CSS, and basic SQL concepts, helping them debug their code, and assisting the lecturer in evaluating assignments. This teaching experience enhanced my communication skills and deepened my understanding of web fundamentals.",
+      "techStack": ["HTML", "CSS", "SQL", "Teaching"],
+      "features": [
+        "Mentored 50+ students in web design fundamentals",
+        "Code review and debugging assistance",
+        "Assignment evaluation support",
+        "One-on-one student guidance",
+        "Practical lab session facilitation",
+        "Technical problem troubleshooting"
+      ],
+      "youtubeUrl": "",
+      "githubUrl": "",
+      "liveUrl": "",
+      "screenshots": ["/images/work/work-img-4.jpg"],
+      "year": "2024",
+      "role": "Lab Assistant"
     },
     {
       "image": "/images/work/work-img-5.jpg",
       "title": "Database Design & Programming",
       "client": "UMBY Laboratory",
       "slug": "database-programming",
-      "description": "Taught Database Design & Programming With SQL course using Oracle Database. Helped troubleshoot technical issues during lab sessions."
+      "description": "Taught Database Design & Programming With SQL course using Oracle Database. Helped troubleshoot technical issues during lab sessions.",
+      "longDescription": "As a laboratory assistant for the Database Design & Programming with SQL course at UMBY, I taught students database concepts using Oracle Database. The role involved demonstrating SQL queries, explaining database design principles, and helping students troubleshoot technical issues during lab sessions. This experience strengthened my Oracle SQL skills and teaching abilities.",
+      "techStack": ["Oracle Database", "SQL", "PL/SQL", "Database Design"],
+      "features": [
+        "Oracle Database instruction and demonstration",
+        "SQL query writing and optimization guidance",
+        "Database design principles teaching",
+        "Technical troubleshooting during lab sessions",
+        "Student assignment assistance",
+        "Practical database exercises facilitation"
+      ],
+      "youtubeUrl": "",
+      "githubUrl": "",
+      "liveUrl": "",
+      "screenshots": ["/images/work/work-img-5.jpg"],
+      "year": "2024",
+      "role": "Lab Assistant"
     },
     {
       "image": "/images/work/work-img-6.jpg",
       "title": "PKKMB FTI UMBY 2024",
       "client": "PDD Chairman - Faculty Events",
       "slug": "pkkmb-fti-2024",
-      "description": "Led the Media and Information team for Faculty of Information Technology's orientation program. Responsible for documentation, live broadcasting, and visual identity of the event."
+      "description": "Led the Media and Information team for Faculty of Information Technology's orientation program. Responsible for documentation, live broadcasting, and visual identity of the event.",
+      "longDescription": "As the PDD (Penanggung Jawab Divisi) Chairman for Media and Information during PKKMB FTI UMBY 2024, I led a team responsible for all media-related aspects of the Faculty of Information Technology's new student orientation program. This included managing documentation, coordinating live broadcasts, designing visual identity elements, and ensuring consistent communication throughout the event.",
+      "techStack": ["Event Management", "Live Broadcasting", "Graphic Design", "Team Leadership"],
+      "features": [
+        "Led Media and Information division team",
+        "Event documentation and photography coordination",
+        "Live broadcast management and coordination",
+        "Visual identity design for the event",
+        "Social media content management",
+        "Cross-team communication and coordination"
+      ],
+      "youtubeUrl": "",
+      "githubUrl": "",
+      "liveUrl": "",
+      "screenshots": ["/images/work/work-img-6.jpg"],
+      "year": "2024",
+      "role": "PDD Chairman - Media & Information"
     }
   ]
 }
