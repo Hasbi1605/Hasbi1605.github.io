@@ -14,11 +14,11 @@ const index = () => {
                   <Image src={getImgPath("/images/home/banner/wave-icon.svg")} alt="wave-icon" width={62} height={62} className="" />
                 </div>
               </div>
-              <h1>Junior Programmer</h1>
+              <h1>Web Developer</h1>
             </div>
             <p className="text-secondary font-normal max-w-md xl:max-w-xl">
               Information Systems student at UMBY (Sem 5, GPA 3.81). Certified Junior Network Administrator (BNSP) and Java Fullstack Bootcamp graduate. Proficient in Java (Spring Boot), PHP (Laravel), Oracle SQL, and REST APIs. Disciplined
-              and eager to launch a career as a Junior Programmer.
+              and eager to launch a career as a Web Developer.
             </p>
           </div>
           <Image src={getImgPath("/images/home/banner/banner-img.png")} alt="banner-img" width={685} height={650} className="block lg:hidden" />

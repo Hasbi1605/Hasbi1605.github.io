@@ -12,8 +12,8 @@ const bricolageGrotesque = Bricolage_Grotesque({
 });
 
 export const metadata: Metadata = {
-  title: "Hasbi - Junior Programmer",
-  description: "Portfolio of Muhammad Hasbi Ash Shiddiqi - Junior Programmer",
+  title: "Hasbi - Web Developer",
+  description: "Portfolio of Muhammad Hasbi Ash Shiddiqi - Web Developer",
 };
 
 export default function RootLayout({
