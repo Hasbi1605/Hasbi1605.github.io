@@ -1,4 +1,24 @@
 import React from "react";
+import Image from "next/image";
+import { getImgPath } from "@/utils/image";
+
+// Tech stack icons using devicon CDN
+const techIcons: { [key: string]: string } = {
+  html: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+  css: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+  sql: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azuresqldatabase/azuresqldatabase-original.svg",
+  oracle: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg",
+  laravel: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg",
+  mysql: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+  bootstrap: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+  vue: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+  javascript: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+  figma: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+  canva: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg",
+  // Local icons
+  capcut: "/images/icon/capcut-icon.svg",
+  finalcut: "/images/icon/final-icon.svg",
+};
 
 const ExperienceSec = () => {
   const experiences = [
@@ -9,6 +29,7 @@ const ExperienceSec = () => {
       type: "Education",
       description:
         "Mentored 50+ students in Web Design Interface and Database Design & Programming With SQL courses. Assisted lecturer in evaluating assignments, debugging student code (HTML, CSS, SQL), and troubleshooting technical issues during lab sessions.",
+      techStack: ["html", "css", "sql", "oracle"],
     },
     {
       year: "Aug 2025 - Oct 2025",
@@ -16,6 +37,7 @@ const ExperienceSec = () => {
       company: "Minibox Barbershop",
       type: "Freelance Project",
       description: "Developed a custom offline management system using Laravel & MySQL to digitize daily transactions. Designed responsive UI using Bootstrap and successfully deployed to replace manual recording.",
+      techStack: ["laravel", "mysql", "bootstrap", "javascript"],
     },
     {
       year: "Oct 2025 - Nov 2025",
@@ -23,6 +45,7 @@ const ExperienceSec = () => {
       company: "Core Initiative via Rakamin Academy",
       type: "Virtual Internship",
       description: "Completed Project Based Internship simulating the role of a Frontend with Vue.js. Developed responsive web interfaces according to UI/UX designs with modern frontend best practices in a fintech-focused environment.",
+      techStack: ["vue", "javascript", "css", "figma"],
     },
     {
       year: "Apr 2024 - Oct 2024",
@@ -30,6 +53,7 @@ const ExperienceSec = () => {
       company: "HMPSSI UMBY",
       type: "Student Organization",
       description: "Managed social media content and information dissemination for student activities. Designed creative visual assets for events and announcements using graphic design tools.",
+      techStack: ["figma", "canva", "capcut", "finalcut"],
     },
   ];
 
@@ -69,6 +93,18 @@ const ExperienceSec = () => {
 
                 <div className="pl-8 sm:pl-0">
                   <p className="leading-relaxed text-base">{exp.description}</p>
+                  {/* Tech Stack Icons */}
+                  <div className="flex flex-wrap gap-2 mt-3">
+                    {exp.techStack.map((tech, techIndex) => {
+                      const iconPath = techIcons[tech];
+                      const isLocalIcon = iconPath.startsWith("/");
+                      return (
+                        <div key={techIndex} className="w-7 h-7 p-1 bg-softGray rounded-md flex items-center justify-center hover:scale-110 transition-transform" title={tech.charAt(0).toUpperCase() + tech.slice(1)}>
+                          <Image src={isLocalIcon ? getImgPath(iconPath) : iconPath} alt={tech} width={20} height={20} className="object-contain" />
+                        </div>
+                      );
+                    })}
+                  </div>
                 </div>
               </div>
             ))}
