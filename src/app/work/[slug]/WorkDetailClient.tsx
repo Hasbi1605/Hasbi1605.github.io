@@ -214,7 +214,7 @@ const WorkDetailClient = ({ slug }: WorkDetailClientProps) => {
                       {/* Previous Button */}
                       <button
                         onClick={() => setCurrentImageIndex((prev) => (prev === 0 ? project.screenshots.length - 1 : prev - 1))}
-                        className="absolute left-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/80 hover:bg-white rounded-full flex items-center justify-center shadow-md transition-colors z-10"
+                        className="carousel-nav absolute left-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/80 hover:bg-white rounded-full flex items-center justify-center shadow-md transition-colors z-10"
                         aria-label="Previous image"
                       >
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#333" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -225,7 +225,7 @@ const WorkDetailClient = ({ slug }: WorkDetailClientProps) => {
                       {/* Next Button */}
                       <button
                         onClick={() => setCurrentImageIndex((prev) => (prev === project.screenshots.length - 1 ? 0 : prev + 1))}
-                        className="absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/80 hover:bg-white rounded-full flex items-center justify-center shadow-md transition-colors z-10"
+                        className="carousel-nav absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/80 hover:bg-white rounded-full flex items-center justify-center shadow-md transition-colors z-10"
                         aria-label="Next image"
                       >
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#333" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -242,7 +242,7 @@ const WorkDetailClient = ({ slug }: WorkDetailClientProps) => {
                         <button
                           key={index}
                           onClick={() => setCurrentImageIndex(index)}
-                          className={`w-3 h-3 rounded-full transition-colors ${index === currentImageIndex ? "bg-primary" : "bg-gray-300 hover:bg-gray-400"}`}
+                          className={`carousel-nav w-3 h-3 rounded-full transition-colors ${index === currentImageIndex ? "bg-primary" : "bg-gray-300 hover:bg-gray-400"}`}
                           aria-label={`Go to image ${index + 1}`}
                         />
                       ))}

@@ -1,7 +1,7 @@
 {
   "workData": [
     {
-      "image": "/images/work/work-img-1.jpg",
+      "image": "/images/work/barbercamp/Home.png",
       "title": "Barbershop POS System",
       "client": "Capstone Project - Metrodata Academy",
       "slug": "barbershop-pos-system",
@@ -17,14 +17,27 @@
         "Git workflow with separate Frontend/Backend branches"
       ],
       "youtubeUrl": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/Hasbi1605/barbercamp-finalProject-Bootcamp.git",
       "liveUrl": "",
-      "screenshots": ["/images/work/work-img-1.jpg"],
+      "screenshots": [
+        "/images/work/barbercamp/Home.png",
+        "/images/work/barbercamp/About.png",
+        "/images/work/barbercamp/ServiceHome.png",
+        "/images/work/barbercamp/Contact.png",
+        "/images/work/barbercamp/Appointment.png",
+        "/images/work/barbercamp/Login.png",
+        "/images/work/barbercamp/Dashboard.png",
+        "/images/work/barbercamp/POS.png",
+        "/images/work/barbercamp/Reservasi.png",
+        "/images/work/barbercamp/Service.png",
+        "/images/work/barbercamp/Kapster.png",
+        "/images/work/barbercamp/User.png"
+      ],
       "year": "2024",
-      "role": "Fullstack Developer"
+      "role": "Frontend Developer"
     },
     {
-      "image": "/images/work/work-img-2.jpg",
+      "image": "/images/work/minibox/DashboardMB.png",
       "title": "Minibox Barbershop Management",
       "client": "Freelance Project",
       "slug": "minibox-barbershop",
@@ -42,7 +55,23 @@
       "youtubeUrl": "",
       "githubUrl": "",
       "liveUrl": "",
-      "screenshots": ["/images/work/work-img-2.jpg"],
+      "screenshots": [
+        "/images/work/minibox/DashboardMB.png",
+        "/images/work/minibox/TransaksiMB.png",
+        "/images/work/minibox/InventarisMB.png",
+        "/images/work/minibox/LayananMB.png",
+        "/images/work/minibox/PengeluaranMB.png",
+        "/images/work/minibox/CabangMB.png",
+        "/images/work/minibox/KapsterMB.png",
+        "/images/work/minibox/KategoriMB.png",
+        "/images/work/minibox/Laporan1.png",
+        "/images/work/minibox/laporan2.png",
+        "/images/work/minibox/Laporan3.png",
+        "/images/work/minibox/Laporan4.png",
+        "/images/work/minibox/Laporan5.png",
+        "/images/work/minibox/Laporan6.png",
+        "/images/work/minibox/Laporan7.png"
+      ],
       "year": "2024",
       "role": "Fullstack Developer"
     },
