@@ -110,55 +110,73 @@
       "youtubeUrl": "",
       "githubUrl": "",
       "liveUrl": "",
-      "screenshots": ["/images/work/schizocheck/home.png", "/images/work/schizocheck/about.png", "/images/work/schizocheck/jenis.png", "/images/work/schizocheck/panduan.png", "/images/work/schizocheck/rujukan.png", "/images/work/schizocheck/kontak.png","/images/work/schizocheck/screening.png"],
+      "screenshots": [
+        "/images/work/schizocheck/home.png",
+        "/images/work/schizocheck/about.png",
+        "/images/work/schizocheck/jenis.png",
+        "/images/work/schizocheck/panduan.png",
+        "/images/work/schizocheck/rujukan.png",
+        "/images/work/schizocheck/kontak.png",
+        "/images/work/schizocheck/screening.png"
+      ],
       "year": "2025",
       "role": "Fullstack Developer"
     },
     {
-      "image": "/images/work/work-img-5.jpg",
-      "title": "Database Design & Programming",
-      "client": "UMBY Laboratory",
-      "slug": "database-programming",
-      "description": "Taught Database Design & Programming With SQL course using Oracle Database. Helped troubleshoot technical issues during lab sessions.",
-      "longDescription": "As a laboratory assistant for the Database Design & Programming with SQL course at UMBY, I taught students database concepts using Oracle Database. The role involved demonstrating SQL queries, explaining database design principles, and helping students troubleshoot technical issues during lab sessions. This experience strengthened my Oracle SQL skills and teaching abilities.",
-      "techStack": ["Oracle Database", "SQL", "PL/SQL", "Database Design"],
+      "image": "/images/work/dewamotor/katalog-home.png",
+      "title": "Dewa Motor - Inventory & Catalog",
+      "client": "UAS CMS - UMBY",
+      "slug": "dewamotor-inventory-catalog",
+      "description": "Building an integrated inventory and catalog system for Dewa Motor dealership using Laravel, Bootstrap, and MySQL. Features public catalog and admin management pages.",
+      "longDescription": "Dewa Motor is a web-based integrated inventory and catalog management system developed as a final exam project for the CMS course. The system consists of two main sections: a public-facing motorcycle catalog where customers can browse available vehicles with filtering options (brand, category, price range, year), and an admin dashboard for managing the inventory. The catalog dynamically syncs with the admin database - any vehicle added, edited, or deleted in admin immediately reflects on the public catalog.",
+      "techStack": ["Laravel", "Bootstrap", "MySQL", "PHP", "JavaScript"],
       "features": [
-        "Oracle Database instruction and demonstration",
-        "SQL query writing and optimization guidance",
-        "Database design principles teaching",
-        "Technical troubleshooting during lab sessions",
-        "Student assignment assistance",
-        "Practical database exercises facilitation"
+        "Public motorcycle catalog with search & filters",
+        "Real-time sync between admin and public catalog",
+        "Admin dashboard with inventory management",
+        "Vehicle CRUD operations (Add, Edit, Delete)",
+        "Category and brand management",
+        "WhatsApp integration for customer inquiries"
       ],
       "youtubeUrl": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/Hasbi1605/Database_DewaMotor_CMS.git",
       "liveUrl": "",
-      "screenshots": ["/images/work/work-img-5.jpg"],
-      "year": "2024",
-      "role": "Lab Assistant"
+      "screenshots": [
+        "/images/work/dewamotor/katalog-home.png",
+        "/images/work/dewamotor/katalog-list.png",
+        "/images/work/dewamotor/kontak.png",
+        "/images/work/dewamotor/detail-motor.png",
+        "/images/work/dewamotor/admin-dashboard.png",
+        "/images/work/dewamotor/kelola-kendaraan.png",
+        "/images/work/dewamotor/dokumen-kendaraan.png",
+        "/images/work/dewamotor/kelola-kategori.png",
+        "/images/work/dewamotor/token-admin.png"
+      ],
+      "year": "2025",
+      "role": "Fullstack Developer"
     },
     {
-      "image": "/images/work/work-img-6.jpg",
-      "title": "PKKMB FTI UMBY 2024",
-      "client": "PDD Chairman - Faculty Events",
-      "slug": "pkkmb-fti-2024",
-      "description": "Led the Media and Information team for Faculty of Information Technology's orientation program. Responsible for documentation, live broadcasting, and visual identity of the event.",
-      "longDescription": "As the PDD (Penanggung Jawab Divisi) Chairman for Media and Information during PKKMB FTI UMBY 2024, I led a team responsible for all media-related aspects of the Faculty of Information Technology's new student orientation program. This included managing documentation, coordinating live broadcasts, designing visual identity elements, and ensuring consistent communication throughout the event.",
-      "techStack": ["Event Management", "Live Broadcasting", "Graphic Design", "Team Leadership"],
+      "image": "/images/work/fti-umby/home.png",
+      "title": "FTI UMBY Website Remake",
+      "client": "UAS Web Design Interface - UMBY",
+      "slug": "fti-umby-website-remake",
+      "description": "Rebuilt the Faculty of Information Technology UMBY website using pure HTML, CSS, and JavaScript. Features an interactive chatbot with template-based Q&A using vanilla JS.",
+      "longDescription": "A website remake project for the Faculty of Information Technology at Universitas Mercu Buana Yogyakarta, developed as a final exam project for the Web Design Interface course in semester 2. Built entirely with pure HTML, CSS, and JavaScript without any frameworks. The highlight feature is an interactive chatbot that answers frequently asked questions about FTI UMBY using predefined templates, implemented purely with vanilla JavaScript.",
+      "techStack": ["HTML", "CSS", "JavaScript"],
       "features": [
-        "Led Media and Information division team",
-        "Event documentation and photography coordination",
-        "Live broadcast management and coordination",
-        "Visual identity design for the event",
-        "Social media content management",
-        "Cross-team communication and coordination"
+        "Interactive chatbot with template-based Q&A",
+        "Program Studi information pages",
+        "Faculty profile and history section",
+        "News and announcements page",
+        "Contact form with Google Maps integration",
+        "Responsive design using pure CSS"
       ],
       "youtubeUrl": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/Hasbi1605/FacultyWebsite-Remake.git",
       "liveUrl": "",
-      "screenshots": ["/images/work/work-img-6.jpg"],
+      "screenshots": ["/images/work/fti-umby/home.png", "/images/work/fti-umby/prodi.png", "/images/work/fti-umby/profil.png", "/images/work/fti-umby/berita.png", "/images/work/fti-umby/chatbot.png"],
       "year": "2024",
-      "role": "PDD Chairman - Media & Information"
+      "role": "Frontend Developer"
     }
   ]
 }
