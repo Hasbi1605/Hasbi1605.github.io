@@ -3,7 +3,7 @@ import { getDataPath, getImgPath } from "@/utils/image";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { SectionHeader, ScrollReveal, StaggerContainer, StaggerItem } from "../../ui/animations";
+import { SectionHeader, StaggerContainer, StaggerItem } from "../../ui/animations";
 
 const EducationSkills = () => {
   const [educationData, setEductionData] = useState<any>(null);
