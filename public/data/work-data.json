@@ -76,7 +76,7 @@
       "role": "Fullstack Developer"
     },
     {
-      "image": "/images/work/virIntern/MensCore.webp",
+      "image": "/images/work/virIntern/2.webp",
       "title": "Core Initiative Frontend",
       "client": "Rakamin Academy - Virtual Internship",
       "slug": "core-initiative-frontend",
@@ -87,7 +87,19 @@
       "youtubeUrl": "",
       "githubUrl": "https://github.com/Hasbi1605/ecommerce-catalog.git",
       "liveUrl": "",
-      "screenshots": ["/images/work/virIntern/MensCore.webp", "/images/work/virIntern/WomensCOre.webp", "/images/work/virIntern/unavailableCore.webp"],
+      "screenshots": [
+        "/images/work/virIntern/2.webp",
+        "/images/work/virIntern/3.webp",
+        "/images/work/virIntern/4.webp",
+        "/images/work/virIntern/5.webp",
+        "/images/work/virIntern/6.webp",
+        "/images/work/virIntern/7.webp",
+        "/images/work/virIntern/8.webp",
+        "/images/work/virIntern/9.webp",
+        "/images/work/virIntern/10.webp",
+        "/images/work/virIntern/11.webp",
+        "/images/work/virIntern/12.webp"
+      ],
       "year": "2024",
       "role": "Frontend Developer"
     },
@@ -174,7 +186,16 @@
       "youtubeUrl": "",
       "githubUrl": "https://github.com/Hasbi1605/FacultyWebsite-Remake.git",
       "liveUrl": "",
-      "screenshots": ["/images/work/fti-umby/home.webp", "/images/work/fti-umby/prodi.webp", "/images/work/fti-umby/profil.webp", "/images/work/fti-umby/berita.webp", "/images/work/fti-umby/chatbot.webp"],
+      "screenshots": [
+        "/images/work/fti-umby/home.webp",
+        "/images/work/fti-umby/prodi.webp",
+        "/images/work/fti-umby/prodi2.webp",
+        "/images/work/fti-umby/profil.webp",
+        "/images/work/fti-umby/berita.webp",
+        "/images/work/fti-umby/kontak.webp",
+        "/images/work/fti-umby/chatbot.webp",
+        "/images/work/fti-umby/footer.webp"
+      ],
       "year": "2024",
       "role": "Frontend Developer"
     }
