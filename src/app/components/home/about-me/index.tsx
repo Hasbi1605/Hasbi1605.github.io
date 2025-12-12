@@ -1,5 +1,7 @@
+"use client";
 import { getImgPath } from "@/utils/image";
 import Image from "next/image";
+import { ScrollReveal, SectionHeader, CounterAnimation, StaggerContainer, StaggerItem } from "../../ui/animations";
 
 const AboutMe = () => {
   return (
@@ -11,49 +13,57 @@ const AboutMe = () => {
 
         <div className="relative z-10">
           <div className="container">
-            <div className="flex items-center justify-between gap-2 border-b border-black pb-7">
+            <SectionHeader className="flex items-center justify-between gap-2 border-b border-black pb-7">
               <h2>About Me</h2>
               <p className="text-xl text-primary">( 01 )</p>
-            </div>
+            </SectionHeader>
 
             <div className="pt-10 xl:pt-16 flex gap-10 items-center justify-between">
-              <div className="w-[303px] h-[440px] hidden lg:flex">
+              <ScrollReveal direction="left" delay={0.2} className="w-[303px] h-[440px] hidden lg:flex">
                 <Image src={getImgPath("/images/home/about-me/about-banner-img.svg")} alt="about-banner" width={303} height={440} className="w-full h-full" />
-              </div>
+              </ScrollReveal>
 
               <div className="w-full lg:max-w-2xl flex-1">
-                <p>
-                  I am Muhammad Hasbi Ash Shiddiqi, an Information Systems student at Mercubuana Yogyakarta University (Semester 5, GPA 3.81/4.00). I am a Certified Junior Network Administrator (BNSP) and Java Fullstack Bootcamp graduate
-                  (Komdigi x Metrodata). Enhanced with IBM AI certification and completed a Project-Based Virtual Internship at Rakamin Academy. I am proficient in Java (Spring Boot), PHP (Laravel), Oracle SQL, and REST APIs. Currently
-                  based in Ngaglik, Kab. Sleman, D. I. Yogyakarta.
-                </p>
+                <ScrollReveal delay={0.1}>
+                  <p>
+                    I am Muhammad Hasbi Ash Shiddiqi, an Information Systems student at Mercubuana Yogyakarta University (Semester 5, GPA 3.81/4.00). I am a Certified Junior Network Administrator (BNSP) and Java Fullstack Bootcamp graduate
+                    (Komdigi x Metrodata). Enhanced with IBM AI certification and completed a Project-Based Virtual Internship at Rakamin Academy. I am proficient in Java (Spring Boot), PHP (Laravel), Oracle SQL, and REST APIs. Currently
+                    based in Ngaglik, Kab. Sleman, D. I. Yogyakarta.
+                  </p>
+                </ScrollReveal>
 
-                <div className="grid grid-cols-3 py-10 xl:py-16 gap-5 border-b border-mistGray">
+                <StaggerContainer className="grid grid-cols-3 py-10 xl:py-16 gap-5 border-b border-mistGray" delayChildren={0.2}>
                   {[
                     { count: "3.81", label: "Current GPA" },
                     { count: "50+", label: "Students Mentored" },
                     { count: "5+", label: "Projects Completed" },
                   ].map((item, i) => (
-                    <div key={i}>
-                      <h3>{item.count}</h3>
-                      <p className="text-base md:text-lg text-black">{item.label}</p>
-                    </div>
+                    <StaggerItem key={i}>
+                      <CounterAnimation delay={i * 0.1}>
+                        <div>
+                          <h3>{item.count}</h3>
+                          <p className="text-base md:text-lg text-black">{item.label}</p>
+                        </div>
+                      </CounterAnimation>
+                    </StaggerItem>
                   ))}
-                </div>
+                </StaggerContainer>
 
-                <div className="pt-8 xl:pt-14 flex flex-col sm:flex-row items-center gap-4">
-                  <div className="flex items-center gap-3.5">
-                    <Image src={getImgPath("/images/icon/lang-icon.svg")} alt="lang-icon" width={30} height={30} />
-                    <p className="text-base text-black">Language</p>
+                <ScrollReveal delay={0.3}>
+                  <div className="pt-8 xl:pt-14 flex flex-col sm:flex-row items-center gap-4">
+                    <div className="flex items-center gap-3.5">
+                      <Image src={getImgPath("/images/icon/lang-icon.svg")} alt="lang-icon" width={30} height={30} />
+                      <p className="text-base text-black">Language</p>
+                    </div>
+                    <div className="flex flex-wrap justify-center items-center gap-2.5">
+                      {["Indonesian (Native)", "English (Working Proficiency)"].map((lang) => (
+                        <p key={lang} className="bg-white py-2 px-4 w-fit rounded-full text-base">
+                          {lang}
+                        </p>
+                      ))}
+                    </div>
                   </div>
-                  <div className="flex flex-wrap justify-center items-center gap-2.5">
-                    {["Indonesian (Native)", "English (Working Proficiency)"].map((lang) => (
-                      <p key={lang} className="bg-white py-2 px-4 w-fit rounded-full text-base">
-                        {lang}
-                      </p>
-                    ))}
-                  </div>
-                </div>
+                </ScrollReveal>
               </div>
             </div>
           </div>

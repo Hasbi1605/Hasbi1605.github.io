@@ -1,6 +1,9 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import { getImgPath } from "@/utils/image";
+import { motion } from "framer-motion";
+import { SectionHeader } from "../../ui/animations";
 
 // Tech stack icons using devicon CDN
 const techIcons: { [key: string]: string } = {
@@ -18,6 +21,26 @@ const techIcons: { [key: string]: string } = {
   // Local icons
   capcut: "/images/icon/capcut-icon.svg",
   finalcut: "/images/icon/final-icon.svg",
+};
+
+const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.2,
+      delayChildren: 0.1,
+    },
+  },
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 40 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] },
+  },
 };
 
 const ExperienceSec = () => {
@@ -61,14 +84,14 @@ const ExperienceSec = () => {
     <section>
       <div className="py-16 md:py-32">
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between gap-2 border-b border-black pb-7 mb-9 md:mb-16">
+          <SectionHeader className="flex items-center justify-between gap-2 border-b border-black pb-7 mb-9 md:mb-16">
             <h2>Experience</h2>
             <p className="text-xl text-primary">( 02 )</p>
-          </div>
+          </SectionHeader>
 
-          <div className="space-y-7 md:space-y-12">
+          <motion.div className="space-y-7 md:space-y-12" variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }}>
             {experiences.map((exp, index) => (
-              <div key={index} className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 md:gap-4 xl:gap-8 items-start relative">
+              <motion.div key={index} className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 md:gap-4 xl:gap-8 items-start relative" variants={itemVariants}>
                 <div className="">
                   <h3 className="font-bold mb-2 text-black">{exp.year}</h3>
                   <h4 className="text-lg font-normal">{exp.title}</h4>
@@ -78,9 +101,15 @@ const ExperienceSec = () => {
                   {index < experiences.length && <div className={`absolute left-0 top-3 w-px ${index < experiences.length - 1 ? "h-40" : "h-30"} bg-softGray`}></div>}
 
                   <div className="no-print absolute left-0 top-0 transform -translate-x-1/2">
-                    <div className={`no-print w-3.5 h-3.5 rounded-full border-1 bg-white flex items-center justify-center ${index === 0 ? "border-primary" : "border-black"}`}>
+                    <motion.div
+                      className={`no-print w-3.5 h-3.5 rounded-full border-1 bg-white flex items-center justify-center ${index === 0 ? "border-primary" : "border-black"}`}
+                      initial={{ scale: 0 }}
+                      whileInView={{ scale: 1 }}
+                      viewport={{ once: true }}
+                      transition={{ delay: index * 0.1, type: "spring", stiffness: 200 }}
+                    >
                       {index === 0 && <div className="w-1.5 h-1.5 rounded-full bg-primary"></div>}
-                    </div>
+                    </motion.div>
                   </div>
 
                   <div className="pl-4 lg:pl-7">
@@ -94,21 +123,29 @@ const ExperienceSec = () => {
                 <div className="pl-8 sm:pl-0">
                   <p className="leading-relaxed text-base">{exp.description}</p>
                   {/* Tech Stack Icons */}
-                  <div className="flex flex-wrap gap-2 mt-3">
+                  <motion.div className="flex flex-wrap gap-2 mt-3" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ delay: 0.3, duration: 0.4 }}>
                     {exp.techStack.map((tech, techIndex) => {
                       const iconPath = techIcons[tech];
                       const isLocalIcon = iconPath.startsWith("/");
                       return (
-                        <div key={techIndex} className="w-7 h-7 p-1 bg-softGray rounded-md flex items-center justify-center hover:scale-110 transition-transform" title={tech.charAt(0).toUpperCase() + tech.slice(1)}>
+                        <motion.div
+                          key={techIndex}
+                          className="w-7 h-7 p-1 bg-softGray rounded-md flex items-center justify-center hover:scale-110 transition-transform"
+                          title={tech.charAt(0).toUpperCase() + tech.slice(1)}
+                          initial={{ opacity: 0, scale: 0 }}
+                          whileInView={{ opacity: 1, scale: 1 }}
+                          viewport={{ once: true }}
+                          transition={{ delay: 0.4 + techIndex * 0.05, type: "spring", stiffness: 200 }}
+                        >
                           <Image src={isLocalIcon ? getImgPath(iconPath) : iconPath} alt={tech} width={20} height={20} className="object-contain" />
-                        </div>
+                        </motion.div>
                       );
                     })}
-                  </div>
+                  </motion.div>
                 </div>
-              </div>
+              </motion.div>
             ))}
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
