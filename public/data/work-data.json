@@ -76,7 +76,7 @@
       "role": "Fullstack Developer"
     },
     {
-      "image": "/images/work/virIntern/MensCore.png",
+      "image": "/images/work/virIntern/MensCore.webp",
       "title": "Core Initiative Frontend",
       "client": "Rakamin Academy - Virtual Internship",
       "slug": "core-initiative-frontend",
@@ -87,12 +87,12 @@
       "youtubeUrl": "",
       "githubUrl": "https://github.com/Hasbi1605/ecommerce-catalog.git",
       "liveUrl": "",
-      "screenshots": ["/images/work/virIntern/MensCore.png", "/images/work/virIntern/WomensCOre.png", "/images/work/virIntern/unavailableCore.png"],
+      "screenshots": ["/images/work/virIntern/MensCore.webp", "/images/work/virIntern/WomensCOre.webp", "/images/work/virIntern/unavailableCore.webp"],
       "year": "2024",
       "role": "Frontend Developer"
     },
     {
-      "image": "/images/work/schizocheck/home.png",
+      "image": "/images/work/schizocheck/home.webp",
       "title": "SchizoCheck - Expert System",
       "client": "UAS Expert System - UMBY",
       "slug": "schizocheck-expert-system",
@@ -111,19 +111,19 @@
       "githubUrl": "",
       "liveUrl": "",
       "screenshots": [
-        "/images/work/schizocheck/home.png",
-        "/images/work/schizocheck/about.png",
-        "/images/work/schizocheck/jenis.png",
-        "/images/work/schizocheck/panduan.png",
-        "/images/work/schizocheck/rujukan.png",
-        "/images/work/schizocheck/kontak.png",
-        "/images/work/schizocheck/screening.png"
+        "/images/work/schizocheck/home.webp",
+        "/images/work/schizocheck/about.webp",
+        "/images/work/schizocheck/jenis.webp",
+        "/images/work/schizocheck/panduan.webp",
+        "/images/work/schizocheck/rujukan.webp",
+        "/images/work/schizocheck/kontak.webp",
+        "/images/work/schizocheck/screening.webp"
       ],
       "year": "2025",
       "role": "Fullstack Developer"
     },
     {
-      "image": "/images/work/dewamotor/katalog-home.png",
+      "image": "/images/work/dewamotor/katalog-home.webp",
       "title": "Dewa Motor - Inventory & Catalog",
       "client": "UAS CMS - UMBY",
       "slug": "dewamotor-inventory-catalog",
@@ -142,21 +142,21 @@
       "githubUrl": "https://github.com/Hasbi1605/Database_DewaMotor_CMS.git",
       "liveUrl": "",
       "screenshots": [
-        "/images/work/dewamotor/katalog-home.png",
-        "/images/work/dewamotor/katalog-list.png",
-        "/images/work/dewamotor/kontak.png",
-        "/images/work/dewamotor/detail-motor.png",
-        "/images/work/dewamotor/admin-dashboard.png",
-        "/images/work/dewamotor/kelola-kendaraan.png",
-        "/images/work/dewamotor/dokumen-kendaraan.png",
-        "/images/work/dewamotor/kelola-kategori.png",
-        "/images/work/dewamotor/token-admin.png"
+        "/images/work/dewamotor/katalog-home.webp",
+        "/images/work/dewamotor/katalog-list.webp",
+        "/images/work/dewamotor/kontak.webp",
+        "/images/work/dewamotor/detail-motor.webp",
+        "/images/work/dewamotor/admin-dashboard.webp",
+        "/images/work/dewamotor/kelola-kendaraan.webp",
+        "/images/work/dewamotor/dokumen-kendaraan.webp",
+        "/images/work/dewamotor/kelola-kategori.webp",
+        "/images/work/dewamotor/token-admin.webp"
       ],
       "year": "2025",
       "role": "Fullstack Developer"
     },
     {
-      "image": "/images/work/fti-umby/home.png",
+      "image": "/images/work/fti-umby/home.webp",
       "title": "FTI UMBY Website Remake",
       "client": "UAS Web Design Interface - UMBY",
       "slug": "fti-umby-website-remake",
@@ -174,7 +174,7 @@
       "youtubeUrl": "",
       "githubUrl": "https://github.com/Hasbi1605/FacultyWebsite-Remake.git",
       "liveUrl": "",
-      "screenshots": ["/images/work/fti-umby/home.png", "/images/work/fti-umby/prodi.png", "/images/work/fti-umby/profil.png", "/images/work/fti-umby/berita.png", "/images/work/fti-umby/chatbot.png"],
+      "screenshots": ["/images/work/fti-umby/home.webp", "/images/work/fti-umby/prodi.webp", "/images/work/fti-umby/profil.webp", "/images/work/fti-umby/berita.webp", "/images/work/fti-umby/chatbot.webp"],
       "year": "2024",
       "role": "Frontend Developer"
     }
