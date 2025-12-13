@@ -2,50 +2,58 @@
   "galleryData": [
     {
       "id": 1,
-      "images": ["/images/gallery/gallery-1.jpg"],
-      "title": "MC PKKMB FTI 2024",
-      "description": "Menjadi Master of Ceremony pada acara Pengenalan Kehidupan Kampus Mahasiswa Baru Fakultas Teknologi Informasi",
-      "category": "Event",
+      "images": [
+        "/images/gallery/bootcamp/graduation-2.webp",
+        "/images/gallery/bootcamp/graduation-7.webp",
+        "/images/gallery/bootcamp/graduation-3.webp",
+        "/images/gallery/bootcamp/graduation-4.webp",
+        "/images/gallery/bootcamp/graduation-5.webp",
+        "/images/gallery/bootcamp/graduation-6.webp",
+        "/images/gallery/bootcamp/graduation-1.webp"
+      ],
+      "title": "Java Bootcamp Graduation - Juara 3 Best Pitching",
+      "description": "Graduated from Java Fullstack Bootcamp by Komdigi x Metrodata Academy at Sahid Convention Hotels Sleman. Won 3rd Place Best Project Pitching and reached Top 5 nominations for Best Poster Design & Best Project Capstone. Presented the project solo.",
+      "category": "Education",
       "date": "2024"
     },
     {
       "id": 2,
-      "images": ["/images/gallery/gallery-2.jpg"],
-      "title": "Workshop Web Development",
-      "description": "Mengikuti workshop pengembangan web modern dengan Next.js dan React",
-      "category": "Workshop",
+      "images": ["/images/gallery/labassistant/webdesign-4.webp", "/images/gallery/labassistant/webdesign-1.webp", "/images/gallery/labassistant/webdesign-2.webp", "/images/gallery/labassistant/webdesign-3.webp"],
+      "title": "Lab Assistant - Web Design Interface",
+      "description": "Served as Lab Assistant for Web Design Interface course for working-class SI students. Created weekly slide materials and taught topics including HTML, CSS, JavaScript, Bootstrap, and jQuery.",
+      "category": "Education",
       "date": "2024"
     },
     {
       "id": 3,
-      "images": ["/images/gallery/gallery-3.jpg"],
-      "title": "Tim HMPSSI UMBY",
-      "description": "Bersama tim Media dan Informasi HMPSSI dalam kegiatan organisasi",
-      "category": "Organization",
+      "images": ["/images/gallery/labassistant/webdesign-4.webp", "/images/gallery/labassistant/webdesign-1.webp", "/images/gallery/labassistant/webdesign-2.webp", "/images/gallery/labassistant/webdesign-3.webp"],
+      "title": "Lab Assistant - Database Design & Programming with SQL",
+      "description": "Served as Lab Assistant for Database Design and Programming with SQL course. Created weekly slide materials and taught topics including SQL query management, database design, and using Oracle SQL database.",
+      "category": "Education",
       "date": "2024"
     },
     {
       "id": 4,
-      "images": ["/images/gallery/gallery-4.jpg"],
-      "title": "Sertifikasi BNSP",
-      "description": "Mengikuti uji kompetensi Junior Network Administrator dari BNSP",
+      "images": ["/images/gallery/bnsp/bnsp-2.webp", "/images/gallery/bnsp/bnsp-4.webp", "/images/gallery/bnsp/bnsp-1.webp", "/images/gallery/bnsp/bnsp-3.webp", "/images/gallery/bnsp/bnsp-5.webp"],
+      "title": "BNSP Junior Network Administrator Certification",
+      "description": "Completed Junior Network Administrator training and certification by Komdigi & BNSP at FTI UMBY Lab. Designed network topology based on given case study as part of the Computer Networking course completion.",
       "category": "Certification",
       "date": "2024"
     },
     {
       "id": 5,
-      "images": ["/images/gallery/gallery-5.jpg"],
-      "title": "Java Bootcamp Graduation",
-      "description": "Wisuda program Java Fullstack Bootcamp di Metrodata Academy",
-      "category": "Education",
+      "images": ["/images/gallery/hmpssi/sinergi-5.webp", "/images/gallery/hmpssi/sinergi-1.webp", "/images/gallery/hmpssi/sinergi-4.webp", "/images/gallery/hmpssi/sinergi-3.webp", "/images/gallery/hmpssi/sinergi-2.webp"],
+      "title": "HMPSSI Synergy Event",
+      "description": "Inter-university synergy event with HMPSSI UMBY, UNRIYO, and AMIKOM Information Systems student organizations. Shared experiences, knowledge, and built professional networks.",
+      "category": "Organization",
       "date": "2024"
     },
     {
       "id": 6,
-      "images": ["/images/gallery/gallery-6.jpg"],
-      "title": "Seminar Teknologi",
-      "description": "Menjadi peserta seminar teknologi dan karir di bidang IT",
-      "category": "Seminar",
+      "images": ["/images/gallery/pkkmb/pkkmb-4.webp", "/images/gallery/pkkmb/pkkmb-5.webp", "/images/gallery/pkkmb/pkkmb-3.webp", "/images/gallery/pkkmb/pkkmb-1.webp", "/images/gallery/pkkmb/pkkmb-2.webp"],
+      "title": "PKKMB FTI UMBY 2024 - PDD Coordinator",
+      "description": "Served as PDD Coordinator for PKKMB FTI UMBY 2024. Documented ongoing events, coordinated video content production, and managed PKKMB FTI social media.",
+      "category": "Event",
       "date": "2024"
     }
   ]
