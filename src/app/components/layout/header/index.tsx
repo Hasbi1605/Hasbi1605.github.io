@@ -18,7 +18,7 @@ const Header = () => {
 
             <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.4, duration: 0.5 }}>
               <Link href={resumeLink} target="_blank" rel="noopener noreferrer" className="relative overflow-hidden cursor-pointer w-fit py-2 sm:py-3 md:py-5 px-4 sm:px-5 md:px-7 border border-primary rounded-full group">
-                <span className="relative z-10 text-xl font-medium text-black group-hover:text-white transition-colors duration-300">View My Resume</span>
+                <span className="relative z-10 text-xl font-medium text-black group-hover:text-white transition-colors duration-300">Download CV</span>
               </Link>
             </motion.div>
           </div>
