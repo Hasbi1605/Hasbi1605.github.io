@@ -14,12 +14,15 @@ interface GalleryItem {
   date: string;
 }
 
+const ITEMS_PER_PAGE = 6;
+
 const MyGallery = () => {
   const [galleryData, setGalleryData] = useState<GalleryItem[]>([]);
   const [selectedImage, setSelectedImage] = useState<GalleryItem | null>(null);
   const [activeFilter, setActiveFilter] = useState<string>("All");
   const [cardImageIndices, setCardImageIndices] = useState<{ [key: number]: number }>({});
   const [lightboxIndex, setLightboxIndex] = useState(0);
+  const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -41,6 +44,21 @@ const MyGallery = () => {
 
   // Filter gallery based on active filter
   const filteredGallery = activeFilter === "All" ? galleryData : galleryData.filter((item) => item.category === activeFilter);
+
+  // Visible items (limited by visibleCount)
+  const visibleGallery = filteredGallery.slice(0, visibleCount);
+  const hasMoreItems = filteredGallery.length > visibleCount;
+
+  // Reset visible count when filter changes
+  const handleFilterChange = (category: string) => {
+    setActiveFilter(category);
+    setVisibleCount(ITEMS_PER_PAGE);
+  };
+
+  // Load more items
+  const handleLoadMore = () => {
+    setVisibleCount((prev) => prev + ITEMS_PER_PAGE);
+  };
 
   // Handle card image change
   const handleCardImageChange = (itemId: number, newIndex: number) => {
@@ -106,7 +124,7 @@ const MyGallery = () => {
               {categories.map((category) => (
                 <button
                   key={category}
-                  onClick={() => setActiveFilter(category)}
+                  onClick={() => handleFilterChange(category)}
                   className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 border ${
                     activeFilter === category ? "bg-primary text-white border-primary" : "bg-white text-secondary border-gray hover:border-primary hover:text-primary"
                   }`}
@@ -120,7 +138,7 @@ const MyGallery = () => {
           {/* Gallery Grid */}
           <motion.div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5" layout transition={{ duration: 0.4, ease: "easeInOut" }}>
             <AnimatePresence mode="popLayout">
-              {filteredGallery.map((item) => {
+              {visibleGallery.map((item) => {
                 const currentIndex = getCardImageIndex(item.id);
                 const hasMultiple = item.images.length > 1;
 
@@ -193,6 +211,23 @@ const MyGallery = () => {
             <div className="text-center py-16">
               <p className="text-secondary">No images found in this category.</p>
             </div>
+          )}
+
+          {/* Load More Button */}
+          {hasMoreItems && (
+            <motion.div className="flex justify-center mt-10" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.3, delay: 0.2 }}>
+              <button
+                onClick={handleLoadMore}
+                className="group flex items-center gap-2 px-6 py-3 bg-white border-2 border-primary text-primary rounded-full font-medium transition-all duration-300 hover:bg-primary hover:text-white hover:shadow-lg hover:shadow-primary/25"
+              >
+                <span>Load More</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="transition-transform duration-300 group-hover:translate-y-0.5">
+                  <path d="M12 5v14" />
+                  <path d="m19 12-7 7-7-7" />
+                </svg>
+                <span className="text-sm opacity-70">({filteredGallery.length - visibleCount} more)</span>
+              </button>
+            </motion.div>
           )}
         </div>
       </div>

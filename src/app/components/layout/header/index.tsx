@@ -17,8 +17,18 @@ const Header = () => {
             </motion.div>
 
             <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.4, duration: 0.5 }}>
-              <Link href={resumeLink} target="_blank" rel="noopener noreferrer" className="relative overflow-hidden cursor-pointer w-fit py-2 sm:py-3 md:py-5 px-4 sm:px-5 md:px-7 border border-primary rounded-full group">
-                <span className="relative z-10 text-xl font-medium text-black group-hover:text-white transition-colors duration-300">Download CV</span>
+              <Link
+                href={resumeLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center gap-2 py-2 sm:py-3 md:py-3 px-4 sm:px-5 md:px-6 bg-white border-2 border-primary text-primary rounded-full font-medium transition-all duration-300 hover:bg-primary hover:text-white hover:shadow-lg hover:shadow-primary/25"
+              >
+                <span className="text-sm sm:text-base md:text-lg font-medium">Download CV</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="transition-transform duration-300 group-hover:translate-y-0.5">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                  <polyline points="7 10 12 15 17 10" />
+                  <line x1="12" y1="15" x2="12" y2="3" />
+                </svg>
               </Link>
             </motion.div>
           </div>
