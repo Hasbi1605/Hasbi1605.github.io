@@ -19,13 +19,12 @@ const HeroSection = () => {
                 </div>
               </HeroReveal>
               <HeroReveal delay={0.3}>
-                <h1>Web Developer</h1>
+                <h1>Backend Developer</h1>
               </HeroReveal>
             </div>
             <HeroReveal delay={0.5}>
               <p className="text-secondary font-normal max-w-md xl:max-w-xl">
-                Information Systems student at UMBY (Sem 5, GPA 3.81). Certified Junior Network Administrator (BNSP) and Java Fullstack Bootcamp graduate. Proficient in Java (Spring Boot), PHP (Laravel), Oracle SQL, and REST APIs.
-                Disciplined and eager to launch a career as a Web Developer.
+                Building robust and scalable server-side applications with clean architecture. Specialized in Java Spring Boot and PHP Laravel ecosystems, with a passion for creating efficient APIs and database solutions.
               </p>
             </HeroReveal>
           </div>
