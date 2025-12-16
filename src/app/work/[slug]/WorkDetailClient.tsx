@@ -4,7 +4,6 @@ import { getImgPath } from "@/utils/image";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 
 interface WorkItem {
   image: string;
