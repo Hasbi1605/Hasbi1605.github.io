@@ -4,6 +4,7 @@ import { getImgPath } from "@/utils/image";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 
 interface WorkItem {
   image: string;
@@ -242,7 +243,7 @@ const WorkDetailClient = ({ slug }: WorkDetailClientProps) => {
                         <button
                           key={index}
                           onClick={() => setCurrentImageIndex(index)}
-                          className={`carousel-nav w-3 h-3 rounded-full transition-colors ${index === currentImageIndex ? "bg-primary" : "bg-gray-300 hover:bg-gray-400"}`}
+                          className={`carousel-nav h-2.5 rounded-full transition-all duration-300 ${index === currentImageIndex ? "bg-primary w-6" : "bg-gray/40 hover:bg-gray/60 w-2.5"}`}
                           aria-label={`Go to image ${index + 1}`}
                         />
                       ))}
