@@ -26,7 +26,11 @@
     },
     {
       "id": 3,
-      "images": ["/images/gallery/labassistant/webdesign-4.webp", "/images/gallery/labassistant/webdesign-1.webp", "/images/gallery/labassistant/webdesign-2.webp", "/images/gallery/labassistant/webdesign-3.webp"],
+      "images": [
+      "/images/gallery/ddp/ddp-2.webp", 
+      "/images/gallery/ddp/ddp-4.webp",
+      "/images/gallery/ddp/ddp-3.webp",
+    "/images/gallery/ddp/ddp-1.webp" ],
       "title": "Lab Assistant - Database Design & Programming with SQL",
       "description": "Served as Lab Assistant for Database Design and Programming with SQL course. Created weekly slide materials and taught topics including SQL query management, database design, and using Oracle SQL database.",
       "category": "Education",
