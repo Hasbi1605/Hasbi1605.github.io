@@ -41,8 +41,8 @@
       "title": "Minibox Barbershop Management",
       "client": "Freelance Project",
       "slug": "minibox-barbershop",
-      "description": "Developed a custom offline management system using Laravel & MySQL to digitize daily transactions. Designed responsive UI using Bootstrap and successfully deployed to replace manual recording.",
-      "longDescription": "A custom-built offline management system developed for a local barbershop to digitize their daily operations. This freelance project replaced their manual paper-based recording system with a digital solution that tracks transactions, manages inventory, and generates business reports. The system is designed to work offline, making it reliable even without internet connectivity.",
+      "description": "Developed a Laravel–MySQL offline transaction system to digitize daily operations and reduce manual errors. Conducted requirement gathering and translated needs into POS transaction recording, automated daily revenue reports, and barber commission tracking. Improved operational efficiency by ~40%.",
+      "longDescription": "A custom-built offline management system developed for Minibox Barbershop in Sleman, Yogyakarta. This freelance project replaced their manual paper-based recording system with a digital solution featuring Point of Sales (POS) transaction recording, automated daily revenue reports, and barber commission tracking. Conducted requirement gathering and translated client needs into system features. Designed a responsive UI with Bootstrap, improving operational efficiency by approximately 40% and eliminating manual calculation errors.",
       "techStack": ["Laravel", "PHP", "MySQL", "Bootstrap", "JavaScript"],
       "features": [
         "Offline-first architecture for reliability",

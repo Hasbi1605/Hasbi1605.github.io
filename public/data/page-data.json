@@ -3,9 +3,9 @@
     "contactItems": [
       {
         "type": "email",
-        "label": "terry.delvon0805@gmail.com",
+        "label": "assidiq247@gmail.com",
         "icon": "/images/icon/mail-icon.svg",
-        "link": "mailto:terry.delvon0805@gmail.com"
+        "link": "mailto:assidiq247@gmail.com"
       },
       {
         "type": "phone",
@@ -41,7 +41,7 @@
       },
       {
         "title": "Java Fullstack Bootcamp - 2025",
-        "description": "Metrodata Academy x BPSDMP Komdigiy • Intensive Bootcamp. Completed training on Enterprise Web Development using Java, Spring Boot, Thymeleaf, Bootstrap and MySQL. Co-developed a Barbershop POS System. Won 3rd Place for Best Pitching."
+        "description": "Metrodata Academy x BPSDMP Komdigi • Intensive Bootcamp. Completed enterprise Java development training. Co-developed a Barbershop POS System using Git branching workflows. Achieved 3rd Place Best Pitching & Top 5 Capstone nominations among 75 participants."
       },
       {
         "title": "Junior Network Administrator - 2025",
@@ -114,8 +114,8 @@
     "contactInfo": [
       {
         "type": "email",
-        "label": "terry.delvon0805@gmail.com",
-        "link": "mailto:terry.delvon0805@gmail.com"
+        "label": "assidiq247@gmail.com",
+        "link": "mailto:assidiq247@gmail.com"
       },
       {
         "type": "phone",

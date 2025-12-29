@@ -12,8 +12,8 @@ const bricolageGrotesque = Bricolage_Grotesque({
 });
 
 export const metadata: Metadata = {
-  title: "Hasbi - Backend Developer",
-  description: "Portfolio of Muhammad Hasbi Ash Shiddiqi - Backend Developer specializing in Java Spring Boot and PHP Laravel",
+  title: "Hasbi - Junior Software Developer",
+  description: "Portfolio of Muhammad Hasbi Ash Shiddiqi - Junior Software Developer specializing in Java Spring Boot and PHP Laravel",
 };
 
 export default function RootLayout({
