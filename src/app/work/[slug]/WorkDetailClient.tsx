@@ -163,20 +163,31 @@ const WorkDetailClient = ({ slug }: WorkDetailClientProps) => {
                     </span>
                   )}
 
-                  {/* YouTube Demo Button */}
+                  {/* Demo Button - YouTube or Live Demo */}
                   {project.youtubeUrl ? (
-                    <Link href={project.youtubeUrl} target="_blank" rel="noopener noreferrer" className="py-3 px-6 bg-red-600 hover:bg-red-700 rounded-full flex items-center gap-2 transition-colors">
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
-                      </svg>
-                      <span className="text-white font-medium">Show Video Demo</span>
-                    </Link>
+                    project.youtubeUrl.includes("youtube") || project.youtubeUrl.includes("youtu.be") ? (
+                      <Link href={project.youtubeUrl} target="_blank" rel="noopener noreferrer" className="py-3 px-6 bg-red-600 hover:bg-red-700 rounded-full flex items-center gap-2 transition-colors">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                        </svg>
+                        <span className="text-white font-medium">Show Video Demo</span>
+                      </Link>
+                    ) : (
+                      <Link href={project.youtubeUrl} target="_blank" rel="noopener noreferrer" className="py-3 px-6 bg-primary hover:bg-primary/90 rounded-full flex items-center gap-2 transition-colors">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                          <circle cx="12" cy="12" r="10" />
+                          <line x1="2" y1="12" x2="22" y2="12" />
+                          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                        </svg>
+                        <span className="text-white font-medium">Live Demo</span>
+                      </Link>
+                    )
                   ) : (
                     <span className="py-3 px-6 bg-gray-400 rounded-full flex items-center gap-2 cursor-not-allowed opacity-60">
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
                         <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
                       </svg>
-                      <span className="text-white font-medium whitespace-nowrap">Video Demo N/A</span>
+                      <span className="text-white font-medium whitespace-nowrap">Demo N/A</span>
                     </span>
                   )}
 

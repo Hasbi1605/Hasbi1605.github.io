@@ -119,7 +119,7 @@
         "Admin dashboard for knowledge base management",
         "Educational content with mental health resources"
       ],
-      "youtubeUrl": "",
+      "youtubeUrl": "https://web-production-db846.up.railway.app/",
       "githubUrl": "https://github.com/Hasbi1605/ES-Skizofrenia.git",
       "liveUrl": "",
       "screenshots": [
@@ -128,8 +128,18 @@
         "/images/work/schizocheck/jenis.webp",
         "/images/work/schizocheck/panduan.webp",
         "/images/work/schizocheck/rujukan.webp",
+        "/images/work/schizocheck/screening.webp",
+        "/images/work/schizocheck/mulai-screening.webp",
+        "/images/work/schizocheck/pertanyaan.webp",
         "/images/work/schizocheck/kontak.webp",
-        "/images/work/schizocheck/screening.webp"
+        "/images/work/schizocheck/admin-login.webp",
+        "/images/work/schizocheck/admin-dashboard.webp",
+        "/images/work/schizocheck/admin-gejala.webp",
+        "/images/work/schizocheck/admin-diagnosis.webp",
+        "/images/work/schizocheck/admin-rules.webp",
+        "/images/work/schizocheck/admin-riwayat.webp",
+        "/images/work/schizocheck/admin-laporan.webp",
+        "/images/work/schizocheck/admin-logout.webp"
       ],
       "year": "2025",
       "role": "Fullstack Developer"
