@@ -145,7 +145,7 @@
       "role": "Fullstack Developer"
     },
     {
-      "image": "/images/work/dewamotor/katalog-home.webp",
+      "image": "/images/work/dewamotor/home.webp",
       "title": "Dewa Motor - Inventory & Catalog",
       "client": "UAS CMS - UMBY",
       "slug": "dewamotor-inventory-catalog",
@@ -164,10 +164,9 @@
       "githubUrl": "https://github.com/Hasbi1605/Database_DewaMotor_CMS.git",
       "liveUrl": "",
       "screenshots": [
-        "/images/work/dewamotor/katalog-home.webp",
-        "/images/work/dewamotor/katalog-list.webp",
+        "/images/work/dewamotor/home.webp",
+        "/images/work/dewamotor/katalog.webp",
         "/images/work/dewamotor/kontak.webp",
-        "/images/work/dewamotor/detail-motor.webp",
         "/images/work/dewamotor/admin-dashboard.webp",
         "/images/work/dewamotor/kelola-kendaraan.webp",
         "/images/work/dewamotor/dokumen-kendaraan.webp",
