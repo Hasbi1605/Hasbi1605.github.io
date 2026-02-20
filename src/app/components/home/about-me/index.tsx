@@ -26,15 +26,13 @@ const AboutMe = () => {
               <div className="w-full lg:max-w-2xl flex-1">
                 <ScrollReveal delay={0.1}>
                   <p>
-                    I am Muhammad Hasbi Ash Shiddiqi, an Information Systems student at Mercubuana Yogyakarta University (Semester 6, GPA 3.81/4.00). I am a Certified Junior Network Administrator (BNSP) and Java Fullstack Bootcamp graduate
-                    (Komdigi x Metrodata). Currently serving as a Laboratory Assistant, mentoring 50+ students in Web Interface Design and Database Programming. Enhanced with IBM AI certification and completed a Project-Based Virtual
-                    Internship at Rakamin Academy. I am proficient in Java (Spring Boot), PHP (Laravel), Oracle SQL, and REST APIs. Currently based in Ngaglik, Kab. Sleman, D. I. Yogyakarta.
+                    I am Muhammad Hasbi Ash Shiddiqi, an Information Systems student at Mercu Buana University Yogyakarta (6th Semester, GPA 3.82/4.00). I am a Certified Junior Network Administrator (BNSP) and Java Fullstack Bootcamp graduate (Komdigi x Metrodata). I have experience as a Laboratory Assistant, mentoring 50+ students in Web Design Interface and Database Design and Programming with SQL. Enhanced with IBM AI certification and completed a Project-Based Virtual Internship at Rakamin Academy. I am proficient in PHP (Laravel), Java (Spring Boot), MySQL, Oracle SQL, and REST APIs. I am currently based in Ngaglik, Sleman Regency, D.I. Yogyakarta.
                   </p>
                 </ScrollReveal>
 
                 <StaggerContainer className="grid grid-cols-3 py-10 xl:py-16 gap-5 border-b border-mistGray" delayChildren={0.2}>
                   {[
-                    { count: "3.81", label: "Current GPA" },
+                    { count: "3.82", label: "Current GPA" },
                     { count: "50+", label: "Students Mentored" },
                     { count: "5+", label: "Projects Completed" },
                   ].map((item, i) => (

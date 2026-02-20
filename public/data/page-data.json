@@ -56,12 +56,12 @@
       {
         "name": "Java",
         "icon": "/images/home/education-skill/java-icon.svg",
-        "rating": 4
+        "rating": 2
       },
       {
         "name": "Spring Boot",
         "icon": "/images/home/education-skill/spring-icon.svg",
-        "rating": 4
+        "rating": 2
       },
       {
         "name": "PHP",
@@ -76,12 +76,12 @@
       {
         "name": "Vue.js",
         "icon": "/images/home/education-skill/vue-icon.svg",
-        "rating": 3
+        "rating": 2
       },
       {
         "name": "MySQL",
         "icon": "/images/home/education-skill/mysql-icon.svg",
-        "rating": 4
+        "rating": 3
       },
       {
         "name": "Oracle SQL",
@@ -96,7 +96,7 @@
       {
         "name": "JavaScript",
         "icon": "/images/home/education-skill/js-icon.svg",
-        "rating": 4
+        "rating": 3
       }
     ]
   },
