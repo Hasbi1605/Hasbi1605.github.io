@@ -26,7 +26,7 @@ const AboutMe = () => {
               <div className="w-full lg:max-w-2xl flex-1">
                 <ScrollReveal delay={0.1}>
                   <p>
-                    I am Muhammad Hasbi Ash Shiddiqi, an Information Systems student at Mercu Buana University Yogyakarta (6th Semester, GPA 3.82/4.00). I am a Certified Junior Network Administrator (BNSP) and Java Fullstack Bootcamp graduate (Komdigi x Metrodata). I have experience as a Laboratory Assistant, mentoring 50+ students in Web Design Interface and Database Design and Programming with SQL. Enhanced with IBM AI certification and completed a Project-Based Virtual Internship at Rakamin Academy. I am proficient in PHP (Laravel), Java (Spring Boot), MySQL, Oracle SQL, and REST APIs. I am currently based in Ngaglik, Sleman Regency, D.I. Yogyakarta.
+                    I am Muhammad Hasbi Ash Shiddiqi, an Information Systems student at Mercu Buana University Yogyakarta (6th Semester, GPA 3.82/4.00). I am a Certified Junior Network Administrator (BNSP) and Java Fullstack Bootcamp graduate (Komdigi x Metrodata). I have experience as a Laboratory Assistant, mentoring 50+ students in Web Design Interface and Database Design and Programming with SQL. Enhanced with IBM AI certification and completed a Project-Based Virtual Internship at Rakamin Academy. With strong fondations in PHP (Laravel), Java (Spring Boot), MySQL, Oracle SQL, and REST APIs. I am currently based in Ngaglik, Sleman Regency, D.I. Yogyakarta.
                   </p>
                 </ScrollReveal>
 
