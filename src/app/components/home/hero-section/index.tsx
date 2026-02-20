@@ -24,7 +24,7 @@ const HeroSection = () => {
             </div>
             <HeroReveal delay={0.5}>
               <p className="text-secondary font-normal max-w-md xl:max-w-xl">
-                Building robust and scalable server-side applications with clean architecture. Specialized in Java Spring Boot and PHP Laravel ecosystems, with a passion for creating efficient APIs and database solutions.
+                A backend development enthusiast with practical experience in PHP Laravel and Java Spring Boot . Committed to writing clean code and learning how to create efficient API and database integrations.
               </p>
             </HeroReveal>
           </div>
