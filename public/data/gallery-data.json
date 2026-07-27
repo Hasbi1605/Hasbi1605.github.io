@@ -76,6 +76,26 @@
       "description": "Contributed to the success of Information System Competition Festival as a key member of the Media and Information team. Created engaging visual assets (posters, digital banners, video editing) and managed social media channels to boost participant engagement.",
       "category": "Event",
       "date": "2024"
+    },
+    {
+      "id": 8,
+      "images": [
+        "/images/gallery/innection/cert.jpg"
+      ],
+      "title": "INNECTION 2026 National Essay Certificate",
+      "description": "Participation certificate for the National Student Essay Competition INNECTION 2026, organized by IPS Education Department, Faculty of Tarbiyah and Teacher Training, UIN Syarif Hidayatullah Jakarta.",
+      "category": "Certification",
+      "date": "2026"
+    },
+    {
+      "id": 9,
+      "images": [
+        "/images/gallery/innection/poster.jpg"
+      ],
+      "title": "INNECTION 2026 Essay Competition - 4th Winner",
+      "description": "Official announcement poster of the National Student Essay Competition INNECTION 2026, placing 4th among national participants.",
+      "category": "Competition",
+      "date": "2026"
     }
   ]
 }

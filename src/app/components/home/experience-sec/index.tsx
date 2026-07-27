@@ -46,6 +46,15 @@ const itemVariants = {
 const ExperienceSec = () => {
   const experiences = [
     {
+      year: "Apr 2026 - May 2026",
+      title: "Research Essay Writer",
+      company: "National Essay Competition - INNECTION 2026",
+      type: "Competition Project",
+      description:
+        "Authored a data-driven policy research essay titled 'CIVIC LAB: Data-Driven Literacy Analysis Method to Fight Information Disruption and Digital Democracy Crisis' with team members from UGM. Secured 4th Place nationally.",
+      techStack: ["figma", "html", "css"],
+    },
+    {
       year: "Sep 2025 - Feb 2026",
       title: "Laboratory Assistant",
       company: "Universitas Mercu Buana Yogyakarta",
