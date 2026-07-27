@@ -51,8 +51,8 @@ const ExperienceSec = () => {
       company: "National Essay Competition - INNECTION 2026",
       type: "Competition Project",
       description:
-        "Authored a data-driven policy research essay titled 'CIVIC LAB: Data-Driven Literacy Analysis Method to Fight Information Disruption and Digital Democracy Crisis' with team members from UGM. Secured 4th Place nationally.",
-      techStack: ["figma", "html", "css"],
+        "Co-authored a data-driven research paper titled 'CIVIC LAB (Cipta Intelektual Visioner Indonesia Cerdas): Metode Literasi Analisis Berbasis Data dalam Melawan Disrupsi Informasi dan Krisis Demokrasi Digital' in a cross-disciplinary team. Developed a functional web prototype and secured 4th Place nationally.",
+      techStack: ["laravel", "mysql", "bootstrap", "figma"],
     },
     {
       year: "Sep 2025 - Feb 2026",
