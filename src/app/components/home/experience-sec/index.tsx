@@ -46,6 +46,15 @@ const itemVariants = {
 const ExperienceSec = () => {
   const experiences = [
     {
+      year: "Apr 2026 - Jul 2026",
+      title: "Analis Sistem Informasi/IT Intern",
+      company: "Istana Kepresidenan Yogyakarta - Kementerian Sekretariat Negara RI",
+      type: "Internship",
+      description:
+        "Selected via Kemensetneg OLIMPUS program. Designed and developed the 'SIKLUS Museum' application system model to manage data collection, publication, and visitor insights for historical collections. Presented proposals directly to stakeholders.",
+      techStack: ["laravel", "mysql", "javascript", "bootstrap"],
+    },
+    {
       year: "Apr 2026 - May 2026",
       title: "Research Essay Writer",
       company: "National Essay Competition - INNECTION 2026",

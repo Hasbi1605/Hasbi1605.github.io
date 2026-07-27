@@ -87,6 +87,20 @@
       "description": "Placed 4th in the National Student Essay Competition INNECTION 2026 organized by UIN Syarif Hidayatullah Jakarta. Co-authored the data-driven policy paper titled 'CIVIC LAB' to address digital democracy issues.",
       "category": "Competition",
       "date": "2026"
+    },
+    {
+      "id": 9,
+      "images": [
+        "/images/gallery/internship/working.jpg",
+        "/images/gallery/internship/presentation.jpg",
+        "/images/gallery/internship/selfie.jpg",
+        "/images/gallery/internship/group_gathering.jpg",
+        "/images/gallery/internship/olimpus_portal.jpg"
+      ],
+      "title": "IT/IS Information System Internship - Istana Kepresidenan Yogyakarta",
+      "description": "Completed a 3-month internship program under Kemensetneg RI (OLIMPUS Portal). Developed and presented the IT museum digital catalog concept 'SIKLUS Museum' for artifact registration and visitor insights.",
+      "category": "Internship",
+      "date": "2026"
     }
   ]
 }
