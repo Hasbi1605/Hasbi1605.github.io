@@ -52,7 +52,7 @@ const ExperienceSec = () => {
       type: "Competition Project",
       description:
         "Co-authored a data-driven research paper titled 'CIVIC LAB (Cipta Intelektual Visioner Indonesia Cerdas): Metode Literasi Analisis Berbasis Data dalam Melawan Disrupsi Informasi dan Krisis Demokrasi Digital' in a cross-disciplinary team. Developed a functional web prototype and secured 4th Place nationally.",
-      techStack: ["laravel", "mysql", "bootstrap", "figma"],
+      techStack: [],
     },
     {
       year: "Sep 2025 - Feb 2026",
