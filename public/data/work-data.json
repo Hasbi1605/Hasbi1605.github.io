@@ -1,6 +1,64 @@
 {
   "workData": [
     {
+      "image": "/images/gallery/internship/istura_home_v3.webp",
+      "title": "ISTURA - Booking Kunjungan Istana Rakyat",
+      "client": "Istana Kepresidenan Yogyakarta (Kemensetneg RI)",
+      "slug": "istura-app",
+      "description": "Developed a secure visitor booking web application for the Presidential Palace Yogyakarta using Laravel 13, React 19 (Vite/TypeScript), and Reverb for realtime updates.",
+      "longDescription": "ISTURA (Istana Untuk Rakyat) is an enterprise booking system developed during my IT/IS internship at the Yogyakarta Presidential Palace. It replaces manual scheduling with a web platform. The user side features an 8-step booking wizard pendaftaran, public schedule checking, and feedback form. The admin dashboard manages operational schedules, visitor approvals, and internal ratings. Supported by Laravel 13, React 19, Reverb (WebSockets), and MySQL database. System is fully functional and live.",
+      "techStack": ["Laravel", "React", "TypeScript", "MySQL", "Tailwind", "Git"],
+      "features": [
+        "Interactive 8-step booking wizard with client-side state management",
+        "Admin dashboard with real-time statistics (waiting, approved, finished)",
+        "Schedule manager with custom holiday settings and time slot toggle",
+        "Feedback analysis page with detailed charts, tags, and multi-criteria ratings",
+        "Sanctum-based admin authentication with 2FA security"
+      ],
+      "youtubeUrl": "",
+      "githubUrl": "https://github.com/Hasbi1605/Istura-app.git",
+      "liveUrl": "https://isturaiky.page",
+      "screenshots": [
+        "/images/gallery/internship/istura_home_v3.webp",
+        "/images/gallery/internship/istura_login.webp",
+        "/images/gallery/internship/istura_dashboard.webp",
+        "/images/gallery/internship/istura_booking.webp",
+        "/images/gallery/internship/istura_schedule.webp",
+        "/images/gallery/internship/istura_schedule_public.webp",
+        "/images/gallery/internship/istura_feedback.webp",
+        "/images/gallery/internship/istura_wizard.webp",
+        "/images/gallery/internship/istura_pop_up.webp"
+      ],
+      "year": "2026",
+      "role": "Fullstack Developer"
+    },
+    {
+      "image": "/images/gallery/internship/selfie.webp",
+      "title": "ISTA AI - Internal Document Assistant",
+      "client": "Istana Kepresidenan Yogyakarta (Kemensetneg RI)",
+      "slug": "ista-ai",
+      "description": "Co-developed an AI assistant platform for internal Presidential Palace documents. Features document ingestion, RAG, and streaming responses.",
+      "longDescription": "ISTA AI is an intelligent workspace solution built for internal staff at the Presidential Palace Yogyakarta. It uses a hybrid architecture: a Laravel frontend (Livewire, Alpine.js, Blade) for user authentication and file management, and a FastAPI (Python) backend to handle the heavy AI pipeline. Staff can upload private documents to be embedded (ChromaDB) and query the assistant with streaming SSE responses, using routed LLM engines (GitHub Models/OpenAI). System is fully functional and live.",
+      "techStack": ["Python", "FastAPI", "Laravel", "Livewire", "ChromaDB", "Alpine.js"],
+      "features": [
+        "Streaming chat interface using Server-Sent Events (SSE)",
+        "Private document ingestion with token-aware chunking and embeddings",
+        "RAG pipeline using local vector stores (ChromaDB)",
+        "LLM model routing and cascade fallback system",
+        "OnlyOffice API integration for online document editing"
+      ],
+      "youtubeUrl": "",
+      "githubUrl": "https://github.com/Hasbi1605/ISTA-AI.git",
+      "liveUrl": "https://ista-ai.app",
+      "screenshots": [
+        "/images/gallery/internship/selfie.webp",
+        "/images/gallery/internship/working.webp",
+        "/images/gallery/internship/group_gathering.webp"
+      ],
+      "year": "2026",
+      "role": "Co-Developer (AI Backend & Integration)"
+    },
+    {
       "image": "/images/work/barbercamp/Home.webp",
       "title": "Barbershop POS System",
       "client": "Capstone Project - Metrodata Academy",
