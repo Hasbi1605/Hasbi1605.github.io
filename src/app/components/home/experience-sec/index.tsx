@@ -51,7 +51,7 @@ const ExperienceSec = () => {
       company: "Istana Kepresidenan Yogyakarta - Kementerian Sekretariat Negara RI",
       type: "Internship",
       description:
-        "Selected via Kemensetneg OLIMPUS program. Developed the 'ISTURA App' (visitor booking system, live at isturaiky.page) and co-designed 'ISTA AI' (RAG-based AI assistant for internal documents, live at ista-ai.app). Presented proposals directly to stakeholders.",
+        "Selected via Kemensetneg OLIMPUS program. Developed the 'ISTURA App' (visitor booking system, live at isturaiky.page) and co-designed 'ISTA AI' (RAG-based AI assistant for internal documents, live at ista-ai.app). Experienced in integrating SEO & GEO (Generative Engine Optimization) models to enhance search visibility. Presented proposals directly to stakeholders.",
       techStack: ["laravel", "mysql", "javascript", "bootstrap"],
     },
     {
