@@ -39,7 +39,7 @@
       "client": "Istana Kepresidenan Yogyakarta (Kemensetneg RI)",
       "slug": "ista-ai",
       "description": "Co-developed an AI assistant platform for internal Presidential Palace documents. Features document ingestion, RAG, and streaming responses.",
-      "longDescription": "ISTA AI is an intelligent workspace solution built for internal staff at the Presidential Palace Yogyakarta. It uses a hybrid architecture: a Laravel frontend (Livewire, Alpine.js, Blade) for user authentication and file management, and a FastAPI (Python) backend to handle the heavy AI pipeline. Staff can upload private documents to be embedded (ChromaDB) and query the assistant with streaming SSE responses, using routed LLM engines (GitHub Models/OpenAI). System is fully functional and live.",
+      "longDescription": "ISTA AI is an intelligent workspace solution built for internal staff at the Presidential Palace Yogyakarta. It uses a hybrid architecture: a Laravel frontend (Livewire, Alpine.js, Blade) for user authentication and file management, and a FastAPI (Python) backend to handle the heavy AI pipeline. Staff can upload private documents to be embedded (ChromaDB) and query the assistant with streaming SSE responses, using routed LLM engines (GitHub Models). System is fully functional and live.",
       "techStack": ["Python", "FastAPI", "Laravel", "Livewire", "ChromaDB", "Alpine.js"],
       "features": [
         "Streaming chat interface using Server-Sent Events (SSE)",
