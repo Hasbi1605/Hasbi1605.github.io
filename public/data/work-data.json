@@ -52,9 +52,12 @@
       "githubUrl": "https://github.com/Hasbi1605/ISTA-AI.git",
       "liveUrl": "https://ista-ai.app",
       "screenshots": [
-        "/images/gallery/internship/selfie.webp",
-        "/images/gallery/internship/working.webp",
-        "/images/gallery/internship/group_gathering.webp"
+        "/images/gallery/internship/ista_ai_home.webp",
+        "/images/gallery/internship/ista_ai_login.webp",
+        "/images/gallery/internship/ista_ai_chat.webp",
+        "/images/gallery/internship/ista_ai_editor.webp",
+        "/images/gallery/internship/ista_ai_prompy.webp",
+        "/images/gallery/internship/ista_ai_profile.webp"
       ],
       "year": "2026",
       "role": "Co-Developer (AI Backend & Integration)"
