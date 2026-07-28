@@ -18,6 +18,7 @@ const techIcons: { [key: string]: string } = {
   javascript: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
   figma: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
   canva: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg",
+  python: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
   // Local icons
   capcut: "/images/icon/capcut-icon.svg",
   finalcut: "/images/icon/final-icon.svg",
@@ -52,7 +53,7 @@ const ExperienceSec = () => {
       type: "Internship",
       description:
         "Selected via Kemensetneg OLIMPUS program. Developed the 'ISTURA App' (visitor booking system, live at isturaiky.page) and co-designed 'ISTA AI' (RAG-based AI assistant for internal documents, live at ista-ai.app). Experienced in integrating SEO & GEO (Generative Engine Optimization) models to enhance search visibility. Presented proposals directly to stakeholders.",
-      techStack: ["laravel", "mysql", "javascript", "bootstrap"],
+      techStack: ["laravel", "python", "mysql", "javascript", "bootstrap"],
     },
     {
       year: "Apr 2026 - May 2026",
