@@ -2,7 +2,7 @@
   "workData": [
     {
       "image": "/images/gallery/internship/istura_home_v3.webp",
-      "title": "ISTURA - Booking Kunjungan Istana Rakyat",
+      "title": "ISTURA - Presidential Palace Public Booking System",
       "client": "Istana Kepresidenan Yogyakarta (Kemensetneg RI)",
       "slug": "istura-app",
       "description": "Developed a secure visitor booking web application for the Presidential Palace Yogyakarta using Laravel 13, React 19 (Vite/TypeScript), and Reverb for realtime updates.",
@@ -35,7 +35,7 @@
     },
     {
       "image": "/images/gallery/internship/ista_ai_home.webp",
-      "title": "ISTA AI - Internal Document Assistant",
+      "title": "ISTA AI - Intelligent Document Workspace & AI Assistant",
       "client": "Istana Kepresidenan Yogyakarta (Kemensetneg RI)",
       "slug": "ista-ai",
       "description": "Co-developed an AI assistant platform for internal Presidential Palace documents. Features document ingestion, RAG, and streaming responses.",
