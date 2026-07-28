@@ -29,12 +29,12 @@ const HeroSection = () => {
             </HeroReveal>
           </div>
           <ImageReveal delay={0.4}>
-            <Image src={getImgPath("/images/home/banner/banner-img.png")} alt="banner-img" width={685} height={650} className="block lg:hidden" />
+            <Image src={getImgPath("/images/home/banner/banner-img.webp")} alt="banner-img" width={685} height={650} className="block lg:hidden" />
           </ImageReveal>
         </div>
       </div>
       <ImageReveal className="absolute right-0 top-7 hidden h-auto w-2/5 lg:block 2xl:w-1/3" delay={0.6}>
-        <Image src={getImgPath("/images/home/banner/banner-img.png")} alt="banner-img" width={550} height={550} className="absolute right-10 top-0 z-1 max-h-[580px] object-contain" />
+        <Image src={getImgPath("/images/home/banner/banner-img.webp")} alt="banner-img" width={550} height={550} className="absolute right-10 top-0 z-1 max-h-[580px] object-contain" />
       </ImageReveal>
     </section>
   );
