@@ -61,7 +61,7 @@ const ExperienceSec = () => {
       company: "National Essay Competition - INNECTION 2026",
       type: "Competition Project",
       description:
-        "Co-authored a data-driven research paper titled 'CIVIC LAB (Cipta Intelektual Visioner Indonesia Cerdas): Metode Literasi Analisis Berbasis Data dalam Melawan Disrupsi Informasi dan Krisis Demokrasi Digital' in a cross-disciplinary team. Developed a functional web prototype and secured 4th Place nationally.",
+        "Co-authored a data-driven essay for a national competition titled 'CIVIC LAB (Cipta Intelektual Visioner Indonesia Cerdas): Metode Literasi Analisis Berbasis Data dalam Melawan Disrupsi Informasi dan Krisis Demokrasi Digital' in a cross-disciplinary team. Developed a functional web prototype and secured 4th Place nationally.",
       techStack: [],
     },
     {
