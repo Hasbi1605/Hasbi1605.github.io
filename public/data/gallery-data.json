@@ -91,15 +91,13 @@
     {
       "id": 9,
       "images": [
-        "/images/gallery/internship/istura_home_v3.webp",
         "/images/gallery/internship/working.webp",
         "/images/gallery/internship/presentation.webp",
         "/images/gallery/internship/selfie.webp",
-        "/images/gallery/internship/group_gathering.webp",
-        "/images/gallery/internship/olimpus_portal.webp"
+        "/images/gallery/internship/group_gathering.webp"
       ],
-      "title": "IT/IS Information System Internship - Istana Kepresidenan Yogyakarta",
-      "description": "3-month IT/IS internship under Kemensetneg RI. Developed 'ISTURA App' (visitor booking system, live at isturaiky.page) and 'ISTA AI' (RAG document assistant, live at ista-ai.app).",
+      "title": "Information System Internship - Istana Kepresidenan Yogyakarta",
+      "description": "Served as an Information System Analyst (Analis SI) during a 3-month internship program under Kemensetneg RI. Gained invaluable hands-on experience, acquired deep technical knowledge, built strong professional networks, and felt deeply grateful for this prestigious opportunity.",
       "category": "Internship",
       "date": "2026"
     }
