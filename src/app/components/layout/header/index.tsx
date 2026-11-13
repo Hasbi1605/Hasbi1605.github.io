@@ -5,7 +5,7 @@ import Logo from "../logo";
 import { motion } from "framer-motion";
 
 const Header = () => {
-  const resumeLink = "https://drive.google.com/file/d/1fhCiIjT5C1C0VUgUKBCmTv1zOPofYsNC/view?usp=sharing";
+  const resumeLink = "/CV_Muhammad_Hasbi_Ash_Shiddiqi.pdf";
 
   return (
     <motion.header className="navbar top-0 left-0 z-999 w-full absolute" initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}>
