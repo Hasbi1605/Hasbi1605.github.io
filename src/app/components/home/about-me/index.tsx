@@ -26,15 +26,15 @@ const AboutMe = () => {
               <div className="w-full lg:max-w-2xl flex-1">
                 <ScrollReveal delay={0.1}>
                   <p>
-                    I am Muhammad Hasbi Ash Shiddiqi, an Information Systems student at Mercu Buana University Yogyakarta (6th Semester, GPA 3.82/4.00). I am a Certified Junior Network Administrator (BNSP) and Java Fullstack Bootcamp graduate (Komdigi x Metrodata). I have experience as a Laboratory Assistant, mentoring 50+ students in Web Design Interface and Database Design and Programming with SQL. Enhanced with IBM AI certification and completed a Project-Based Virtual Internship at Rakamin Academy. With strong fondations in PHP (Laravel), Java (Spring Boot), MySQL, Oracle SQL, and REST APIs. I am currently based in Ngaglik, Sleman Regency, D.I. Yogyakarta.
+                    I am Muhammad Hasbi Ash Shiddiqi, an Information Systems student at Mercu Buana University Yogyakarta (7th Semester, GPA 3.85/4.00). I recently completed an internship as an Information Systems Analyst / IT Intern at the Yogyakarta Presidential Palace (Kemensetneg RI), where I built ISTURA and co-developed ISTA AI. I am a Certified Junior Network Administrator (BNSP) and Java Fullstack Bootcamp graduate (Komdigi x Metrodata). I have experience as a Laboratory Assistant, mentoring 50+ students in Web Design Interface and Database Design and Programming with SQL. Enhanced with IBM AI certification and completed a Project-Based Virtual Internship at Rakamin Academy. With strong foundations in PHP (Laravel), Java (Spring Boot), React, TypeScript, Python (FastAPI), MySQL, Oracle SQL, and REST APIs. I am currently based in Ngaglik, Sleman Regency, D.I. Yogyakarta.
                   </p>
                 </ScrollReveal>
 
                 <StaggerContainer className="grid grid-cols-3 py-10 xl:py-16 gap-5 border-b border-mistGray" delayChildren={0.2}>
                   {[
-                    { count: "3.82", label: "Current GPA" },
+                    { count: "3.85", label: "Current GPA" },
                     { count: "50+", label: "Students Mentored" },
-                    { count: "5+", label: "Projects Completed" },
+                    { count: "8+", label: "Projects Completed" },
                   ].map((item, i) => (
                     <StaggerItem key={i}>
                       <CounterAnimation delay={i * 0.1}>
