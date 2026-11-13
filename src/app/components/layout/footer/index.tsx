@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const Footer = () => {
   const footerLinks = [
-    { href: "mailto:terry.delvon0805@gmail.com", label: "terry.delvon0805@gmail.com" },
+    { href: "mailto:assidiq247@gmail.com", label: "assidiq247@gmail.com" },
     { href: "tel:+6283826039171", label: "+62 838-2603-9171" },
     { href: "https://www.linkedin.com/in/mhasbia16", label: "LinkedIn", external: true },
     { href: "https://github.com/Hasbi1605", label: "GitHub", external: true },
@@ -35,7 +35,7 @@ const Footer = () => {
           </motion.div>
 
           <motion.p className="text-secondary text-center" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ delay: 0.8 }}>
-            © 2025 Muhammad Hasbi Ash Shiddiqi. All rights reserved.
+            © 2026 Muhammad Hasbi Ash Shiddiqi. All rights reserved.
           </motion.p>
         </div>
       </div>
