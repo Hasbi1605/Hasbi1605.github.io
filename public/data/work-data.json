@@ -7,7 +7,14 @@
       "slug": "istura-app",
       "description": "Developed a secure visitor booking web application for the Presidential Palace Yogyakarta using Laravel 13, React 19 (Vite/TypeScript), and Reverb for realtime updates.",
       "longDescription": "ISTURA (Istana Untuk Rakyat) is an integrated booking system designed to solve manual registration challenges at the Yogyakarta Presidential Palace. It streamlines the entire process, replacing the previous manual workflows for both visitors and administrators with a centralized digital platform. The user side features an 8-step booking wizard, public schedule checking, and feedback form. The admin dashboard manages operational schedules, visitor approvals, and internal ratings. Supported by Laravel 13, React 19, Reverb (WebSockets), and MySQL database. System is fully functional and live. Built-in SEO/GEO content clustering raises platform visibility on search engines and AI retrieval systems.",
-      "techStack": ["Laravel", "React", "TypeScript", "MySQL", "Tailwind", "Git"],
+      "techStack": [
+        "Laravel",
+        "React",
+        "TypeScript",
+        "MySQL",
+        "Tailwind",
+        "Git"
+      ],
       "features": [
         "Interactive 8-step booking wizard with client-side state management",
         "Admin dashboard with real-time statistics (waiting, approved, finished)",
@@ -40,7 +47,14 @@
       "slug": "ista-ai",
       "description": "Co-developed an AI assistant platform for internal Presidential Palace documents. Features document ingestion, RAG, and streaming responses.",
       "longDescription": "ISTA AI is an intelligent workspace solution built for internal staff at the Presidential Palace Yogyakarta. It uses a hybrid architecture: a Laravel frontend (Livewire, Alpine.js, Blade) for user authentication and file management, and a FastAPI (Python) backend to handle the heavy AI pipeline. Staff can upload private documents to be embedded (ChromaDB) and query the assistant with streaming SSE responses, using routed LLM engines (GitHub Models). System is fully functional and live.",
-      "techStack": ["Python", "FastAPI", "Laravel", "Livewire", "ChromaDB", "Alpine.js"],
+      "techStack": [
+        "Python",
+        "FastAPI",
+        "Laravel",
+        "Livewire",
+        "ChromaDB",
+        "Alpine.js"
+      ],
       "features": [
         "Streaming chat interface using Server-Sent Events (SSE)",
         "Private document ingestion with token-aware chunking and embeddings",
@@ -50,7 +64,7 @@
       ],
       "youtubeUrl": "",
       "githubUrl": "https://github.com/Hasbi1605/ISTA-AI.git",
-      "liveUrl": "https://ista-ai.app",
+      "liveUrl": "https://portofolio-hasbi.web.id/ista-demo/",
       "screenshots": [
         "/images/gallery/internship/ista_ai_home.webp",
         "/images/gallery/internship/ista_ai_login.webp",
@@ -69,7 +83,14 @@
       "slug": "barbershop-pos-system",
       "description": "Co-developed a Barbershop POS System in a 2-person team using Java, Spring Boot, Thymeleaf, Bootstrap and MySQL. Implemented Git workflow with separate branches for Frontend and Backend integration.",
       "longDescription": "A comprehensive Point of Sale (POS) system designed specifically for barbershop businesses. This capstone project was developed in collaboration with a teammate, implementing a full-stack solution that handles customer management, service booking, transaction processing, and reporting. The system features a clean, intuitive interface that allows barbershop staff to efficiently manage daily operations.",
-      "techStack": ["Java", "Spring Boot", "Thymeleaf", "Bootstrap", "MySQL", "Git"],
+      "techStack": [
+        "Java",
+        "Spring Boot",
+        "Thymeleaf",
+        "Bootstrap",
+        "MySQL",
+        "Git"
+      ],
       "features": [
         "Customer management and booking system",
         "Service catalog with pricing",
@@ -80,7 +101,7 @@
       ],
       "youtubeUrl": "",
       "githubUrl": "https://github.com/Hasbi1605/barbercamp-finalProject-Bootcamp.git",
-      "liveUrl": "",
+      "liveUrl": "https://portofolio-hasbi.web.id/barbershop-demo/",
       "screenshots": [
         "/images/work/barbercamp/Home.webp",
         "/images/work/barbercamp/About.webp",
@@ -105,7 +126,13 @@
       "slug": "minibox-barbershop",
       "description": "Developed a Laravel–MySQL offline transaction system to digitize daily operations and reduce manual errors. Conducted requirement gathering and translated needs into POS transaction recording, automated daily revenue reports, and barber commission tracking. Improved operational efficiency by ~40%.",
       "longDescription": "A custom-built offline management system developed for Minibox Barbershop in Sleman, Yogyakarta. This freelance project replaced their manual paper-based recording system with a digital solution featuring Point of Sales (POS) transaction recording, automated daily revenue reports, and barber commission tracking. Conducted requirement gathering and translated client needs into system features. Designed a responsive UI with Bootstrap, improving operational efficiency by approximately 40% and eliminating manual calculation errors.",
-      "techStack": ["Laravel", "PHP", "MySQL", "Bootstrap", "JavaScript"],
+      "techStack": [
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "Bootstrap",
+        "JavaScript"
+      ],
       "features": [
         "Offline-first architecture for reliability",
         "Daily transaction recording and tracking",
@@ -144,8 +171,21 @@
       "slug": "core-initiative-frontend",
       "description": "Built an e-commerce catalog using Vue.js that fetches product data from FakeStore API. Implemented category filtering (Men's, Women's, Unavailable) with a provided style guide and color palette.",
       "longDescription": "A virtual internship project at Rakamin Academy where I developed an e-commerce product catalog using Vue.js. The application integrates with FakeStore API to fetch product data dynamically and categorizes products into three sections: Men's clothing, Women's clothing, and Unavailable products. Implemented the UI based on a provided style guide and color palette to ensure design consistency. This project enhanced my skills in API integration, state management, and responsive design.",
-      "techStack": ["Vue.js", "JavaScript", "CSS", "HTML", "REST API"],
-      "features": ["FakeStore API integration", "Product category filtering (Men's, Women's, Unavailable)", "Dynamic product data fetching", "Style guide implementation", "Color palette consistency", "Responsive product display"],
+      "techStack": [
+        "Vue.js",
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "REST API"
+      ],
+      "features": [
+        "FakeStore API integration",
+        "Product category filtering (Men's, Women's, Unavailable)",
+        "Dynamic product data fetching",
+        "Style guide implementation",
+        "Color palette consistency",
+        "Responsive product display"
+      ],
       "youtubeUrl": "",
       "githubUrl": "https://github.com/Hasbi1605/ecommerce-catalog.git",
       "liveUrl": "https://portofolio-hasbi.web.id/ecommerce-catalog/",
@@ -172,7 +212,13 @@
       "slug": "schizocheck-expert-system",
       "description": "Building an expert system website for early detection of schizophrenia using Forward Chaining and Certainty Factor methods. Built with Laravel, Bootstrap, and MySQL.",
       "longDescription": "SchizoCheck is a web-based expert system for early detection of schizophrenia symptoms, developed as a final exam project for the Expert System course. The system uses Forward Chaining method combined with Certainty Factor to analyze user responses and provide preliminary diagnosis. Features include symptom questionnaire, schizophrenia type classification (Paranoid, Hebephrenic, Residual), and educational content about mental health. The project has two main sections: public pages for users and admin dashboard for managing expert knowledge base.",
-      "techStack": ["Laravel", "Bootstrap", "MySQL", "PHP", "JavaScript"],
+      "techStack": [
+        "Laravel",
+        "Bootstrap",
+        "MySQL",
+        "PHP",
+        "JavaScript"
+      ],
       "features": [
         "Forward Chaining & Certainty Factor diagnosis method",
         "Symptom screening questionnaire",
@@ -213,7 +259,13 @@
       "slug": "dewamotor-inventory-catalog",
       "description": "Building an integrated inventory and catalog system for Dewa Motor dealership using Laravel, Bootstrap, and MySQL. Features public catalog and admin management pages.",
       "longDescription": "Dewa Motor is a web-based integrated inventory and catalog management system developed as a final exam project for the CMS course. The system consists of two main sections: a public-facing motorcycle catalog where customers can browse available vehicles with filtering options (brand, category, price range, year), and an admin dashboard for managing the inventory. The catalog dynamically syncs with the admin database - any vehicle added, edited, or deleted in admin immediately reflects on the public catalog.",
-      "techStack": ["Laravel", "Bootstrap", "MySQL", "PHP", "JavaScript"],
+      "techStack": [
+        "Laravel",
+        "Bootstrap",
+        "MySQL",
+        "PHP",
+        "JavaScript"
+      ],
       "features": [
         "Public motorcycle catalog with search & filters",
         "Real-time sync between admin and public catalog",
@@ -245,7 +297,11 @@
       "slug": "fti-umby-website-remake",
       "description": "Rebuilt the Faculty of Information Technology UMBY website using pure HTML, CSS, and JavaScript. Features an interactive chatbot with template-based Q&A using vanilla JS.",
       "longDescription": "A website remake project for the Faculty of Information Technology at Universitas Mercu Buana Yogyakarta, developed as a final exam project for the Web Design Interface course in semester 2. Built entirely with pure HTML, CSS, and JavaScript without any frameworks. The highlight feature is an interactive chatbot that answers frequently asked questions about FTI UMBY using predefined templates, implemented purely with vanilla JavaScript.",
-      "techStack": ["HTML", "CSS", "JavaScript"],
+      "techStack": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
       "features": [
         "Interactive chatbot with template-based Q&A",
         "Program Studi information pages",
